@@ -37,21 +37,14 @@ import { RouterLink } from 'vue-router'
  * all nav options fit in the current screen
  */
 const windowWidth = ref(window.innerWidth);
-
-const resizeWindowWidth = () => {
-    windowWidth.value = window.innerWidth;
-};
-
 const navOptionsFit = computed(() => windowWidth.value > 800);
-
+const resizeWindowWidth = () => windowWidth.value = window.innerWidth;
 onMounted(() => window.addEventListener('resize', resizeWindowWidth));
 onUnmounted(() => window.removeEventListener('resize', resizeWindowWidth));
 
 // toggles dropdown
 const dropdownShown = ref(false);
-const toggleNavOptionsDropdown = () => {
-    dropdownShown.value = !dropdownShown.value;
-}
+const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.value;
 
 </script>
 
@@ -81,6 +74,7 @@ const toggleNavOptionsDropdown = () => {
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 2;
+    cursor: pointer;
 }
 
 @media (max-width: 800px) {
@@ -88,6 +82,7 @@ const toggleNavOptionsDropdown = () => {
         background-color: var(--color-secondary);
         color: var(--color-text);
 
+        position: fixed;
         width: 100%;
         padding: 15px;
         display: flex;
@@ -100,6 +95,7 @@ const toggleNavOptionsDropdown = () => {
         display: flex;
         gap: 10px;
         flex-direction: column;
+        cursor: pointer;
     }
 }
 
@@ -108,6 +104,7 @@ const toggleNavOptionsDropdown = () => {
         background-color: var(--color-secondary);
         color: var(--color-text);
 
+        position: fixed;
         width: 100%;
         padding: 15px;
         display: flex;
@@ -119,6 +116,7 @@ const toggleNavOptionsDropdown = () => {
         display: flex;
         gap: 20px;
         flex-direction: row;
+        cursor: pointer;
     }
 }
 
@@ -128,6 +126,7 @@ a {
     color: var(--color-text);
     transition: 0.4s;
     padding: 3px;
+    cursor: pointer;
 }
 
 @media (hover: hover) {
@@ -138,6 +137,18 @@ a {
     }
 
     #nav-options a:hover {
+        background-color: var(--color-text-hover-background);
+    }
+}
+
+@media (hover: none) {
+
+    /* so hover doesn't have style when on logo */
+    #logo a:active {
+        background-color: var(--color-secondary);
+    }
+
+    #nav-options a:active {
         background-color: var(--color-text-hover-background);
     }
 }

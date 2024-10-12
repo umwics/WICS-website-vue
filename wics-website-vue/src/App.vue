@@ -2,7 +2,7 @@
   <header>
     <NavBar></NavBar>
   </header>
-  <RouterView />
+  <RouterView id="main-view" />
 </template>
 
 <script setup lang="ts">
@@ -31,6 +31,10 @@ body {
   font-family: var(--font-name);
 
   text-align: center;
+}
+
+#main-view {
+  padding-top: 100px;
 }
 
 @media (min-width: 320px) {

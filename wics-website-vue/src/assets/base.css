@@ -1,5 +1,9 @@
 :root {
-    --color-background: #072A47;
+    /* dark background */
+    --color-primary: #072A47;
+    --color-secondary: #6aa6d6;
+
+
     --color-text: #FAFAFA;
     --color-text-hover-background: #3b6c94;
     --font-name: 'Poppins';

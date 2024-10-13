@@ -9,8 +9,12 @@
 
             <div v-if="!navOptionsFit" id="menu-button">
                 <button @click="toggleNavOptionsDropdown">
-                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <svg v-if="!dropdownShown" viewBox="0 0 16 16" stroke-width="2" xmlns="http://www.w3.org/2000/svg"
+                        version="1.1">
                         <path d="m2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5" />
+                    </svg>
+                    <svg v-else viewBox="0 0 24 24" stroke-width="3" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 12 7 7m5 5 5 5m-5-5 5-5m-5 5-5 5" />
                     </svg>
                 </button>
             </div>
@@ -67,13 +71,12 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
 }
 
 #menu-button svg {
-    width: 60px;
-    height: 40px;
+    width: 50px;
+    height: 30px;
     fill: none;
     stroke: var(--color-text);
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke-width: 2;
     cursor: pointer;
 }
 

@@ -22,7 +22,6 @@
 
         <div v-if="navOptionsFit || dropdownShown" id="nav-options">
             <RouterLink to="/">Home</RouterLink>
-            <RouterLink to="/about-us">About Us</RouterLink>
             <RouterLink to="/team">Team</RouterLink>
             <RouterLink to="/events">Events</RouterLink>
             <RouterLink to="/outreach">Outreach</RouterLink>
@@ -74,7 +73,7 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
     width: 50px;
     height: 30px;
     fill: none;
-    stroke: var(--color-text);
+    stroke: var(--color-text-light);
     stroke-linecap: round;
     stroke-linejoin: round;
     cursor: pointer;
@@ -82,8 +81,8 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
 
 @media (max-width: 800px) {
     nav {
-        background-color: var(--color-secondary);
-        color: var(--color-text);
+        background-color: var(--color-background-blue);
+        color: var(--color-text-light);
 
         position: fixed;
         width: 100%;
@@ -104,8 +103,8 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
 
 @media (min-width: 801px) {
     nav {
-        background-color: var(--color-secondary);
-        color: var(--color-text);
+        background-color: var(--color-background-blue);
+        color: var(--color-text-light);
 
         position: fixed;
         width: 100%;
@@ -126,21 +125,29 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
 /* for router links */
 a {
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-text-light);
+
     transition: 0.4s;
-    padding: 3px;
+    padding: 7px;
     cursor: pointer;
+}
+
+/* .router-link-active is a class from RouterLink */
+#nav-options a.router-link-active {
+    background-color: var(--color-background-dark-hover);
+    border-radius: 20px;
 }
 
 @media (hover: hover) {
 
     /* so hover doesn't have style when on logo */
     #logo a:hover {
-        background-color: var(--color-secondary);
+        background-color: var(--color-background-blue);
     }
 
     #nav-options a:hover {
-        background-color: var(--color-text-hover-background);
+        background-color: var(--color-background-dark-hover);
+        border-radius: 20px;
     }
 }
 
@@ -148,11 +155,12 @@ a {
 
     /* so hover doesn't have style when on logo */
     #logo a:active {
-        background-color: var(--color-secondary);
+        background-color: var(--color-background-blue);
     }
 
-    #nav-options a:active {
-        background-color: var(--color-text-hover-background);
+    a:active {
+        background-color: var(--color-background-dark-hover);
+        border-radius: 20px;
     }
 }
 </style>

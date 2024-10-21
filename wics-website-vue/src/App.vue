@@ -26,8 +26,8 @@ import NavBar from './components/NavBar.vue'
 }
 
 body {
-  background-color: var(--color-primary);
-  color: var(--color-text);
+  background-color: var(--color-background-light);
+  color: var(--color-text-dark);
   font-family: var(--font-name);
 
   text-align: center;

@@ -119,6 +119,6 @@ There are 3 member types:
 - `Contributor`: for everyone else in the website team
 
 ### Events, Outreach, Lounge, Contact Us
-When you want to modify or add new information on events, outreach, and/or lounge, go to their corresponding folder in `src/assets/data/`
+When you want to modify or add new information on events, outreach, lounge, and/or contact us, go to their corresponding folder in `src/assets/data/`
 
 

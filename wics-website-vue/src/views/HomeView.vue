@@ -6,7 +6,7 @@
             computer
             science less intimidating and create a safe space for women to connect.
         </p>
-        <img src="../assets/images/mentor-mingle-2023.jpeg">
+        <img src="../assets/home/images/mentor-mingle-2023.jpeg">
     </div>
 </template>
 

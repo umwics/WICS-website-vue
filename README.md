@@ -56,9 +56,8 @@ npm run lint
     ```sh
     git branch
     ```
-2. Make sure your main branch is up to date by doing the following commands separately.
-    ```sh
-    git fetch
+2. Make sure your main branch is up to date by doing the following command.
+    ```sh 
     git pull
     ```
 3. Create a branch off of the main branch with the issue number as the prefix, followed by the title or summary of the issue. Then checkout that branch.

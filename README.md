@@ -93,7 +93,9 @@ npm run lint
 - `src`
   - `assets`: contains files with css variables, .js arrays of objects for data, and images
     - `data`: contains files that have texts about the website and images
-    - `base.css`: contains font, brand colors, css property colors, and their naming convention.
+        - `events`: contains texts for the events page
+            - `images`: contains images shown in events page
+    - `base.css`: contains font, brand colors, css property colors, and their naming convention
   - `components`: contains reusable components
   - `router`: contains the routes to the pages of the website
   - `views`: contains the pages of the website
@@ -117,7 +119,7 @@ There are 3 member types:
 - `Appointed`: for everyone that has Assistant positions and the Website Committee Coordinator
 - `Contributor`: for everyone else in the website team
 
-### Events, Outreach, Lounge, Contact Us
-When you want to modify or add new information on events, outreach, lounge, and/or contact us, go to their corresponding folder in `src/assets/data/`
+### Home, Events, Outreach, Lounge, Contact Us
+When you want to modify or add new information on home, events, outreach, lounge, and/or contact us, go to their corresponding folder in `src/assets/data/`
 
 

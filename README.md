@@ -68,7 +68,7 @@ npm run lint
     ```sh
     git add --all
     ```
-5. Save your changes.
+5. Save your changes. Inside the quotation marks, put the commit message which describes the changes you made.
     ```sh
     git commit -m "Create navigation bar."
     ```

@@ -29,7 +29,7 @@ const props = defineProps({
     align-items: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: var(--width-media-max)) {
     .card-container {
         display: flex;
         flex-direction: column;
@@ -54,7 +54,7 @@ const props = defineProps({
     }
 }
 
-@media (min-width: 801px) {
+@media (min-width: var(--width-media-min)) {
     .card-container {
         display: flex;
         flex-direction: column;

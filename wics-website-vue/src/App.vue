@@ -38,27 +38,17 @@ body {
 }
 
 @media (min-width: 320px) {
-  .text-block {
+  .view-container {
     padding: 2rem;
-  }
-
-  body {
-    display: flex;
-    place-items: center;
   }
 }
 
 @media (min-width: 1024px) {
-  .text-block {
+  .view-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 10rem;
     padding-right: 10rem;
-  }
-
-  body {
-    display: flex;
-    place-items: center;
   }
 }
 </style>

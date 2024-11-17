@@ -11,13 +11,13 @@ import websiteMember9 from '../defaultMember.jpeg';
 import websiteMember10 from '../defaultMember.jpeg';
 import websiteMember11 from '../defaultMember.jpeg';
 
-export const outreach = [
+export const websiteCommittee = [
     {
         "image": websiteCoordinatorImage,
         "name": "Ara Nicole Santos",
         "position": "Website Committee Coordinator",
         "memberType": "Appointed",
-        "description": "Hi everyone! I'm Ara and I'm the Website Committee Coordinator for s.y. 2024-2025! I'm a 3rd year CS major, and I'm also in co-op! I'm very grateful to be a part of WICS as it's such a welcoming community, full of hard working and supportive people. I'm so excited to be leading the creation of our new website! Fun fact about me is I love to collect earrings. My most favorites are my boba, cloud, and duck earrings! If you see me out there, feel free to say hi. I love meeting new people :D",
+        "description": "Hi everyone! I'm Ara and I'm the Website Committee Coordinator for 2024-2025! I'm a 3rd year CS major, and I'm also in co-op! I'm very grateful to be a part of WICS as it's such a welcoming community, full of hard working and supportive people. I'm so excited to be leading the creation of our new website! Fun fact about me is I love to collect earrings. My most favorites are my boba, cloud, and duck earrings! If you see me out there, feel free to say hi. I love meeting new people :D",
     },
     {
         "image": websiteMember1,

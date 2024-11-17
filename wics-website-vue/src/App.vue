@@ -3,11 +3,13 @@
     <NavBar></NavBar>
   </header>
   <RouterView id="main-view" />
+  <FooterComponent />
 </template>
 
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
+import FooterComponent from './components/FooterComponent.vue';
 </script>
 
 <style>
@@ -21,6 +23,9 @@ import NavBar from './components/NavBar.vue'
 }
 
 #app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0 auto;
   font-weight: normal;
 }
@@ -34,31 +39,22 @@ body {
 }
 
 #main-view {
+  flex: 1;
   padding-top: 100px;
 }
 
 @media (min-width: 320px) {
-  .text-block {
+  .view-container {
     padding: 2rem;
-  }
-
-  body {
-    display: flex;
-    place-items: center;
   }
 }
 
 @media (min-width: 1024px) {
-  .text-block {
+  .view-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 10rem;
     padding-right: 10rem;
-  }
-
-  body {
-    display: flex;
-    place-items: center;
   }
 }
 </style>

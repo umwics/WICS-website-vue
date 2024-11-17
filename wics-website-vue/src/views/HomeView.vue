@@ -1,5 +1,5 @@
 <template>
-    <div class="text-block">
+    <div class="view-container">
         <h1>Women in Computer Science <br>(WICS)</h1>
         <p>
             WICS is a student group supporting women and gender minorities in computer science. Our aim is to make

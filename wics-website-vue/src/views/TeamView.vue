@@ -1,5 +1,5 @@
 <template>
-    <div class="text-block">
+    <div class="view-container">
         <div class="title">
             <h1>Team</h1>
             <p>These are the members of WICS during the 2024-2025 school year.</p>

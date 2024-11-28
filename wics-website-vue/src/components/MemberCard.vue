@@ -34,7 +34,8 @@ const props = defineProps({
         display: flex;
         flex-direction: column;
 
-        padding: 4%;
+        height: fit-content;
+        padding: 3%;
         border: 2px solid var(--color-border-dark);
         border-radius: 30px;
         margin: 3%;
@@ -43,14 +44,19 @@ const props = defineProps({
         text-align: start;
     }
 
+    .member-info-container {
+        padding: 2%;
+        column-gap: 10px;
+    }
+
     .member-info-container img {
         border-radius: 50%;
-        min-height: 100px;
-        min-width: 100px;
-        max-height: 100px;
-        max-width: 100px;
-        overflow: hidden;
-        padding: 2%;
+        min-width: 90px;
+        min-height: 90px;
+        width: 90px;
+        height: 90px;
+
+        object-fit: cover;
     }
 }
 
@@ -59,6 +65,7 @@ const props = defineProps({
         display: flex;
         flex-direction: column;
 
+        height: 100%;
         padding: 2%;
         border: 2px solid var(--color-border-dark);
         border-radius: 30px;
@@ -68,14 +75,19 @@ const props = defineProps({
         text-align: start;
     }
 
+    .member-info-container {
+        padding: 3%;
+        column-gap: 15px;
+    }
+
     .member-info-container img {
         border-radius: 50%;
-        min-height: 100px;
-        min-width: 100px;
-        max-height: 100px;
+        width: 100px;
+        height: 100px;
         max-width: 100px;
-        overflow: hidden;
-        padding: 2%;
+        max-height: 100px;
+
+        object-fit: cover;
     }
 }
 
@@ -88,7 +100,10 @@ const props = defineProps({
     background-color: var(--color-background-blue);
     width: fit-content;
     height: fit-content;
+
+    border: 2px solid var(--color-background-blue);
     border-radius: 30px;
+
     margin: 2% 0%;
     padding: 2% 4%;
 

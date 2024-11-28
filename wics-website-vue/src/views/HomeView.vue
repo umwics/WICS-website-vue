@@ -6,11 +6,12 @@
             computer
             science less intimidating and create a safe space for women to connect.
         </p>
-        <img src="../assets/home/images/mentor-mingle-2023.jpeg">
+        <img :src="mentorMingleImage">
     </div>
 </template>
 
 <script setup>
+import mentorMingleImage from '@/assets/data/home/images/mentor-mingle-2023.jpeg'
 </script>
 
 <style scoped>

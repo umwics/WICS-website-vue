@@ -153,7 +153,7 @@ a {
 
 @media (hover: none) {
 
-    /* so hover doesn't have style when on logo */
+    /* so click doesn't have style when on logo */
     #logo a:active {
         background-color: var(--color-background-blue);
     }

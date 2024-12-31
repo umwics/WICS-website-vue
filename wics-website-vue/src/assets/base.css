@@ -24,6 +24,7 @@
     --color-text-dark: var(--color-wics-darker-blue);
     --color-text-light: var(--color-wics-light-white);
     --color-text-gray: var(--color-wics-dark-gray);
+    --color-text-blue: var(--color-wics-dark-blue);
 
     --color-border-dark: var(--color-wics-darker-blue);
 

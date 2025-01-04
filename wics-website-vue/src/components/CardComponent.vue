@@ -26,10 +26,12 @@ export default {
 * {
     box-sizing: border-box;
 }
+
 .card-container {
     width: 524px;
     border-radius: 12px;
 }
+
 .top {
     background-color: #C6DBED;
     border-top-left-radius: inherit;
@@ -37,6 +39,7 @@ export default {
     height: 34px;
     border-bottom: 2px solid #2C456F;
 }
+
 .main {
     color: #2C456F;
     font-family: 'Josefin Sans';
@@ -44,6 +47,7 @@ export default {
     padding: 27px 30px;
     margin: 0;
 }
+
 .card-img {
     width: 100%;  
     height: 100%; 
@@ -66,6 +70,5 @@ export default {
     font-size: 16px;
     padding: 0;
     margin: 0;
-
 }
 </style>

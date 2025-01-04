@@ -1,12 +1,13 @@
 <template>
     <div class="card-container">
         <div class="member-info-container">
-            <img :src="member?.image">
+            <img :src="member?.image" :alt="member?.altImage">
             <div>
                 <h3>{{ member?.name }}</h3>
                 <p class="position"><i>{{ member?.position }}</i></p>
                 <div class="tag">
                     <p>{{ member?.memberType }}</p>
+                    <p>{{ member?.pronouns}}</p>
                 </div>
             </div>
         </div>

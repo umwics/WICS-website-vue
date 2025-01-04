@@ -6,7 +6,7 @@
             computer
             science less intimidating and create a safe space for women to connect.
         </p>
-        <img :src="mentorMingleImage">
+        <img :src="mentorMingleImage" alt="Mentor Mingle ">
     </div>
 </template>
 

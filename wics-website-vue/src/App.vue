@@ -2,7 +2,7 @@
   <header>
     <NavBar></NavBar>
   </header>
-  <RouterView id="main-view" />
+  <RouterView class="main-view" />
   <FooterComponent />
 </template>
 
@@ -38,20 +38,20 @@ body {
   text-align: center;
 }
 
-#main-view {
-  flex: 1;
-  padding-top: 100px;
+.main-view {
+  flex: 1; 
 }
 
 @media (min-width: 320px) {
   .view-container {
     padding: 2rem;
+    padding-top: 100px;
   }
 }
 
 @media (min-width: 1024px) {
   .view-container {
-    padding-top: 2rem;
+    padding-top: 100px;
     padding-bottom: 2rem;
     padding-left: 10rem;
     padding-right: 10rem;

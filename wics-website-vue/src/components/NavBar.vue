@@ -1,13 +1,13 @@
 <template>
     <nav>
-        <div id="logo-menu-container">
-            <div id="logo">
+        <div class="logo-menu-container">
+            <div class="logo">
                 <RouterLink to="/">
                     <img src="/UMWICS NavBar Logo.png" alt="Women in Computer Science logo" />
                 </RouterLink>
             </div>
 
-            <div v-if="!navOptionsFit" id="menu-button">
+            <div v-if="!navOptionsFit" class="menu-button">
                 <button @click="toggleNavOptionsDropdown">
                     <svg v-if="!dropdownShown" viewBox="0 0 16 16" stroke-width="2" xmlns="http://www.w3.org/2000/svg"
                         version="1.1">
@@ -20,7 +20,7 @@
             </div>
         </div>
 
-        <div v-if="navOptionsFit || dropdownShown" id="nav-options">
+        <div v-if="navOptionsFit || dropdownShown" class="nav-options">
             <RouterLink to="/">Home</RouterLink>
             <RouterLink to="/team">Team</RouterLink>
             <RouterLink to="/events">Events</RouterLink>
@@ -57,19 +57,19 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
     background-color: inherit;
 }
 
-#logo-menu-container {
+.logo-menu-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-#logo img {
+.logo img {
     width: 60px;
     height: 30px;
 }
 
-#menu-button svg {
+.menu-button svg {
     width: 50px;
     height: 30px;
     fill: none;
@@ -92,7 +92,7 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
         justify-content: space-between;
     }
 
-    #nav-options {
+    .nav-options {
         padding-top: 15px;
         display: flex;
         gap: 10px;
@@ -114,7 +114,7 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
         justify-content: space-between;
     }
 
-    #nav-options {
+    .nav-options {
         display: flex;
         gap: 20px;
         flex-direction: row;
@@ -133,7 +133,7 @@ a {
 }
 
 /* .router-link-active is a class from RouterLink */
-#nav-options a.router-link-active {
+.nav-options a.router-link-active {
     background-color: var(--color-background-dark-hover);
     border-radius: 20px;
 }
@@ -141,11 +141,11 @@ a {
 @media (hover: hover) {
 
     /* so hover doesn't have style when on logo */
-    #logo a:hover {
+    .logo a:hover {
         background-color: var(--color-background-blue);
     }
 
-    #nav-options a:hover {
+    .nav-options a:hover {
         background-color: var(--color-background-dark-hover);
         border-radius: 20px;
     }
@@ -154,7 +154,7 @@ a {
 @media (hover: none) {
 
     /* so click doesn't have style when on logo */
-    #logo a:active {
+    .logo a:active {
         background-color: var(--color-background-blue);
     }
 

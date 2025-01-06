@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <div id="footer-content">
+        <div class="footer-content">
             <p>© 2025. University of Manitoba Women in Computer Science. All Rights Reserved.</p>
         </div>
     </footer>
@@ -22,7 +22,7 @@ footer {
     padding: 20px;
 }
 
-#footer-content p {
+.footer-content p {
     margin: 0;
     font-size: 1rem;
 }
@@ -32,7 +32,7 @@ footer {
         padding: 15px;
     }
 
-    #footer-content p {
+    .footer-content p {
         font-size: 0.9rem;
     }
 }
@@ -42,7 +42,7 @@ footer {
         padding: 20px;
     }
 
-    #footer-content p {
+    .footer-content p {
         font-size: 1rem;
     }
 }

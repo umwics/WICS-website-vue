@@ -5,8 +5,11 @@
             <div>
                 <h3>{{ member?.name }}</h3>
                 <p class="position"><i>{{ member?.position }}</i></p>
-                <div class="tag">
+                <div class="tags">
+                    <div class = "tag"></div>
                     <p>{{ member?.memberType }}</p>
+                    </div>
+                    <div class = "tag">
                     <p>{{ member?.pronouns}}</p>
                 </div>
             </div>
@@ -24,6 +27,9 @@ const props = defineProps({
 </script>
 
 <style scoped>
+.tags {
+    display: flex;
+}
 .member-info-container {
     display: flex;
     flex-direction: row;

@@ -6,11 +6,12 @@
                 <h3>{{ member?.name }}</h3>
                 <p class="position"><i>{{ member?.position }}</i></p>
                 <div class="tags">
-                    <div class = "tag"></div>
+                    <div class = "tag">
                     <p>{{ member?.memberType }}</p>
                     </div>
                     <div class = "tag">
                     <p>{{ member?.pronouns}}</p>
+                </div>
                 </div>
             </div>
         </div>

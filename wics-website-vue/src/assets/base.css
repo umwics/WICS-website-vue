@@ -30,4 +30,7 @@
     --color-shadow-dark: var(--color-wics-darker-blue);
 
     --font-name: 'Poppins';
+
+    --width-media-max: 800px;
+    --width-media-min: 801px;
 }

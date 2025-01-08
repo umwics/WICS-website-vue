@@ -21,28 +21,26 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-
 * {
     box-sizing: border-box;
 }
 
 .card-container {
-    width: 524px;
+    width: 100%;
     border-radius: 12px;
+    border: 2px solid var(--color-border-dark);
 }
 
 .top {
-    background-color: #C6DBED;
+    background-color: var(--color-background-lighter-blue);
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
     height: 34px;
-    border-bottom: 2px solid #2C456F;
+    border-bottom: 2px solid var(--color-border-dark);
 }
 
 .main {
-    color: #2C456F;
-    font-family: 'Josefin Sans';
+    color: var(--color-text-dark);
     text-align: left;
     padding: 27px 30px;
     margin: 0;

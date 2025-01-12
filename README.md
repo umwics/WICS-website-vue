@@ -2,8 +2,9 @@
 
 This is the repository for the website of Women in Computer Science (WICS) at the University of Manitoba. WICS is a student group supporting women and gender minorities in Computer Science. Our aim is to make computer science less intimidating and create a safe space for women and gender minorities to connect. This website is being built using Vue 3 Composition API and tested using Vitest. 
 
-# wics-website-license
-The license looks like this: 
+# website license 
+This is the license for the website: © 2025 University of Manitoba Women in Computer Science. All Rights Reserved. This work is licensed under a Creative Commons Attribute-NonCommercial-ShareAlike 4.0 International License. 
+
 ## Recommended Setup
 
 IDE: 

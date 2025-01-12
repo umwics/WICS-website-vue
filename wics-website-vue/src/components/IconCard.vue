@@ -20,7 +20,7 @@ const props = defineProps({
 <style scoped>
 .social {
     display: flex;
-    justify-content: center;
+    padding-left: 20px;
 
     color: var(--color-text-dark);
 }
@@ -30,18 +30,18 @@ const props = defineProps({
     flex-direction: column;
     gap: 5px;
     justify-content: center;
-    align-content: center;
 
     text-align: start;
 
     /* accounts for the space in an svg */
     padding-right: 30px;
-
 }
 
 svg {
     width: 150px;
     height: 150px;
+    min-width: 100px;
+    min-height: 100px;
     fill: var(--color-svg-dark_blue);
 }
 </style>

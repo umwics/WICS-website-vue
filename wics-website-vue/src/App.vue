@@ -76,6 +76,8 @@ body {
   width: 100%;
   border-radius: 12px;
   border: 2px solid var(--color-border-darker_blue);
+
+  word-break: break-word;
 }
 
 /***************************/

@@ -7,7 +7,7 @@
                 <p class="position"><i>{{ member?.position }}</i></p>
                 <div class="tag">
                     <p>{{ member?.memberType }}</p>
-                    <p>{{ member?.pronouns}}</p>
+                    <p>{{ member?.pronouns }}</p>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@ const props = defineProps({
 
         height: fit-content;
         padding: 3%;
-        border: 2px solid var(--color-border-dark);
+        border: 2px solid var(--color-border-darker_blue);
         border-radius: 30px;
         margin: 3%;
 
@@ -68,7 +68,7 @@ const props = defineProps({
 
         height: 100%;
         padding: 2%;
-        border: 2px solid var(--color-border-dark);
+        border: 2px solid var(--color-border-darker_blue);
         border-radius: 30px;
         margin: 2%;
 

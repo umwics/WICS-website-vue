@@ -65,7 +65,7 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
 }
 
 .logo img {
-    width: 60px;
+    width: 70px;
     height: 30px;
 }
 

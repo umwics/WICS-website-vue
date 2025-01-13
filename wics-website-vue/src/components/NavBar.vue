@@ -3,7 +3,7 @@
         <div class="logo-menu-container">
             <div class="logo">
                 <RouterLink to="/">
-                    <img src="/UMWICS NavBar Logo.png" alt="Women in Computer Science logo" />
+                    <img src="/UMWICS Logo.png" alt="Women in Computer Science logo" />
                 </RouterLink>
             </div>
 

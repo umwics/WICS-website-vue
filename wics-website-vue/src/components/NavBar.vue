@@ -61,12 +61,12 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .logo img {
     width: 70px;
-    height: 31px;
+    height: 30px;
     align-items: center;
 }
 

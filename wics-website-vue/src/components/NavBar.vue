@@ -1,10 +1,12 @@
 <template>
     <nav>
         <div class="logo-menu-container">
-            <div class="logo">
-                <RouterLink to="/">
-                    <img src="/UMWICS Logo.png" alt="Women in Computer Science logo" />
-                </RouterLink>
+            <div class="wrap">
+                <div class="logo">
+                    <RouterLink to="/">
+                        <img src="/UMWICS Logo.png" class="myImage" alt="Women in Computer Science logo" />
+                    </RouterLink>
+                </div>
             </div>
 
             <div v-if="!navOptionsFit" class="menu-button">
@@ -61,12 +63,22 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+}
+
+.wrap {
+    width: 90px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.myImage {
+    margin: -18px 0px 0px 0px;
 }
 
 .logo img {
     width: 70px;
-    height: 30px;
+    height: auto;
 }
 
 .menu-button svg {

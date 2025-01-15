@@ -79,7 +79,7 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
     cursor: pointer;
 }
 
-@media (max-width: 800px) {
+@media (max-width: var(--width-media-max)) {
     nav {
         background-color: var(--color-background-blue);
         color: var(--color-text-light);
@@ -101,7 +101,7 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
     }
 }
 
-@media (min-width: 801px) {
+@media (min-width: var(--width-media-min)) {
     nav {
         background-color: var(--color-background-blue);
         color: var(--color-text-light);

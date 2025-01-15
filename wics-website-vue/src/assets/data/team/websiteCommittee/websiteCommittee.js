@@ -44,7 +44,7 @@ export const websiteCommittee = [
         "name": "Krisha Bhalala",
         "position": "Website Committee Member",
         "memberType": "Contributor",
-        "pronouns": " ",
+        "pronouns": "",
         "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "altImage": "Image of Krisha Bhalala, WICS Website Committee Member"
     },
@@ -71,7 +71,7 @@ export const websiteCommittee = [
         "name": "Esther Akamnonu",
         "position": "Website Committee Member",
         "memberType": "Contributor",
-        "pronouns": " ",
+        "pronouns": "",
         "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "altImage": "Image of Esther Akamnonu, WICS Website Committee Member"
     },
@@ -89,7 +89,7 @@ export const websiteCommittee = [
         "name": "Divyata Gosai",
         "position": "Website Committee Member",
         "memberType": "Contributor",
-        "pronouns": " ",
+        "pronouns": "",
         "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "altImage": "Image of Divyata Gosai, WICS Website Committee Member"
     },
@@ -107,7 +107,7 @@ export const websiteCommittee = [
         "name": "Justine Dyker",
         "position": "Website Committee Member",
         "memberType": "Contributor",
-        "pronouns": " ",
+        "pronouns": "",
         "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "altImage": "Image of Justine Dyker, WICS Website Committee Member"
     },

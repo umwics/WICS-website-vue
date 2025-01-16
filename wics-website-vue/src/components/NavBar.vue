@@ -4,7 +4,7 @@
             <div class="wrap">
                 <div class="logo">
                     <RouterLink to="/">
-                        <img src="/UMWICS Logo.png" class="logoImage" alt="Women in Computer Science logo" />
+                        <img src="/UMWICS Logo.png" class="logo-image" alt="Women in Computer Science logo" />
                     </RouterLink>
                 </div>
             </div>
@@ -72,7 +72,7 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
     overflow: hidden;
 }
 
-.logoImage {
+.logo-image {
     margin: -18px 0px 0px 0px;
 }
 

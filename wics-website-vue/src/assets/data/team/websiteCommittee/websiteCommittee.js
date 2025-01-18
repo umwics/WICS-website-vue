@@ -35,7 +35,7 @@ export const websiteCommittee = [
         "name": "Kriza Cyrene (KC) del Moro",
         "position": "Website Committee Member",
         "memberType": "Contributor",
-        "pronouns": "They/them",
+        "pronouns": "they/them",
         "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "altImage": "Image of Kriza Cyrene (KC) del Moro, WICS Website Committee Member"
     },

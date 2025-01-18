@@ -30,6 +30,8 @@ const props = defineProps({
 <style scoped>
 .tags {
     display: flex;
+    gap: 5px;
+    
 }
 .member-info-container {
     display: flex;

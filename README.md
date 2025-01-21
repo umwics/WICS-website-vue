@@ -103,8 +103,8 @@ npm run lint
 
 The data that will be used in reusable components, such as cards, will be in `src/assets/data/` so it's easier to import them to the `src/views` files as one or few imports. Also, these are the information that will most likely be updated every year, so only having to go to `src/assets/data/` to update information allows this website to be easier to maintain. Some texts that aren't in `src/assets/data` will be on their own `src/views` files, and this will be the case if the information is only a few lines, can't be grouped meaningfully, won't be updated yearly, or aren't used in reusable components.
 
-## Naming Convention
-  - CSS variables in `base.css`: [color/font]-[css property]-[color/shade]-[state]
+## Naming Conventions
+  - CSS variables in `base.css`: `[color/font]-[css property]-[color/shade]-[state]`
   - Modifier classes: `prop-name--prop-value` (BEM)
 
 ## Updating information

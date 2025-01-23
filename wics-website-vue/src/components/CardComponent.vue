@@ -99,6 +99,4 @@ const imagePositionClasses = 'image-position--' + props.imagePosition;
 
     white-space: pre-line
 }
-
-/* maybe just use grid template? */
 </style>

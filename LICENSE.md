@@ -1,5 +1,5 @@
 # Website License 
-This work is licensed under a Creative Commons Attribute-NonCommercial-ShareAlike 4.0 International License. For more information, please visit the following link: https://creativecommons.org/licenses/by-nc-sa/4.0/
+© 2025 University of Manitoba Women in Computer Science. All Rights Reserved. This work is licensed under a Creative Commons Attribute-NonCommercial-ShareAlike 4.0 International License. For more information, please visit the following link: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # SVG Assets License
 The SVG assets used in this website are licensed under the MIT License.

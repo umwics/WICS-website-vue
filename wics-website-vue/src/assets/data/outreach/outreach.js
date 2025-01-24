@@ -1,6 +1,6 @@
-import fortRichmondCollegiate from 'C:\Users\robot\OneDrive - University of Manitoba\Desktop\wicsWebsite\WICS-website-vue\wics-website-vue\src\assets\data\outreach\Fort Richmond Logo_Vertical_Motto Wide.jpg';
-import gamedevworkshop from 'C:\Users\robot\OneDrive - University of Manitoba\Desktop\wicsWebsite\WICS-website-vue\wics-website-vue\src\assets\data\outreach\game dev workshop.png';
-import discord from 'C:\Users\robot\OneDrive - University of Manitoba\Desktop\wicsWebsite\WICS-website-vue\wics-website-vue\src\assets\data\outreach\discord.png';
+import fortRichmondCollegiate from 'C:\Users\robot\OneDrive - University of Manitoba\Desktop\wicsWebsite\WICS-website-vue\wics-website-vue\src\assets\data\outreach\images\Fort Richmond Logo_Vertical_Motto Wide.jpg';
+import gamedevworkshop from 'C:\Users\robot\OneDrive - University of Manitoba\Desktop\wicsWebsite\WICS-website-vue\wics-website-vue\src\assets\data\outreach\images\game dev workshop.png';
+import discord from 'C:\Users\robot\OneDrive - University of Manitoba\Desktop\wicsWebsite\WICS-website-vue\wics-website-vue\src\assets\data\outreach\images\discord.png';
 
 
 export const outreach = [

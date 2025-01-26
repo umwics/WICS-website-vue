@@ -2,9 +2,14 @@
     <div class="card-container">
         <div class="card-top"></div>
         <div class="main">
-            <img class="card-img" :src="image" />
+            <img v-if="image" class="card-img" :src="image" />
             <h1 class="title">{{ title }}</h1>
-            <p class="body">{{ description }}</p>
+            <p class="body" v-html="description"></p>
+
+            <div class="section-divider"></div>
+
+            <h1 v-if="secondaryTitle" class="title">{{ secondaryTitle }}</h1>
+            <p v-if="secondaryBody" class="body" v-html="secondaryBody"></p>
         </div>
     </div>
 </template>
@@ -16,6 +21,8 @@ export default {
         image: String,
         title: String,
         description: String,
+        secondaryTitle: String,
+        secondaryBody: String,
     }
 }
 </script>
@@ -54,5 +61,11 @@ export default {
     font-size: 16px;
     padding: 0;
     margin: 0;
+}
+
+.section-divider {
+    height: 10px;
+    margin: 10px 0;
+    background-color: transparent;
 }
 </style>

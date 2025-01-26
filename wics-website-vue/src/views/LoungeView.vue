@@ -5,7 +5,7 @@
             <p>Located at EITC-E2 ROOM 559!</p>
         </div>
 
-        <div class="socials">
+        <div class="lounge">
             <CardComponent title="WOMEN IN COMPUTER SCIENCE LOUNGE"
                 description="The Women in Computer Science Lounge is a space dedicated to women and gender minorities within computer science. Its purpose is to be a space specifically for underrepresented groups in CS to meet, support one another, and form community. Despite its name, the lounge is not limited just to women. Any person who self-identifies as a gender minority (e.g. non-binary, genderqueer, two-spirit, transgender, etc.) is welcome!"
                 secondaryTitle="FEEDBACK FORM"
@@ -20,7 +20,7 @@
         </ol>
     " />
         </div>
-        <div class="socials">
+        <div class="lounge">
             <CardComponent title="DIRECTIONS TO THE LOUNGE" description='<iframe src="https://www.instagram.com/reel/DAqujeIgDY_/embed" 
                 width="400" height="600" frameborder="0" data-instgrm-captioned=""
                 allowfullscreen scrolling="no" title="Directions to UMWICS Lounge"></iframe>' />
@@ -37,7 +37,7 @@ import { loungePictures } from '@/assets/data/lounge/lounge.js';
 </script>
 
 <style scoped>
-.socials {
+.lounge {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5%;
@@ -64,7 +64,7 @@ import { loungePictures } from '@/assets/data/lounge/lounge.js';
         padding-bottom: 10%;
     }
 
-    .socials {
+    .lounge {
         grid-template-columns: 1fr;
         row-gap: 5%;
         padding-bottom: 36%;
@@ -76,7 +76,7 @@ import { loungePictures } from '@/assets/data/lounge/lounge.js';
         padding-bottom: 5%;
     }
 
-    .socials {
+    .lounge {
         grid-template-columns: 1fr 1fr;
         column-gap: 5%;
         row-gap: 5%;

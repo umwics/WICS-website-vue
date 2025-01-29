@@ -1,9 +1,9 @@
 <template>
     <div class="card-container">
-        <div class="top"></div>
+        <div class="card-top"></div>
         <div class="main">
             <img class="card-img" :src="image" />
-            <h1 class="title">{{ title }}</h1>      
+            <h1 class="title">{{ title }}</h1>
             <p class="body">{{ description }}</p>
         </div>
     </div>
@@ -11,32 +11,18 @@
 
 <script>
 export default {
-  name: 'CardComponent',
-  props: {
-    image: String,
-    title: String,
-    description: String,
-  }
+    name: 'CardComponent',
+    props: {
+        image: String,
+        title: String,
+        description: String,
+    }
 }
 </script>
 
 <style scoped>
 * {
     box-sizing: border-box;
-}
-
-.card-container {
-    width: 100%;
-    border-radius: 12px;
-    border: 2px solid var(--color-border-dark);
-}
-
-.top {
-    background-color: var(--color-background-lighter-blue);
-    border-top-left-radius: inherit;
-    border-top-right-radius: inherit;
-    height: 34px;
-    border-bottom: 2px solid var(--color-border-dark);
 }
 
 .main {

@@ -1,7 +1,7 @@
 <template>
     <footer>
         <div class="footer-content">
-            <p>© 2025. University of Manitoba Women in Computer Science. All Rights Reserved.</p>
+            <p>© 2025 University of Manitoba Women in Computer Science. All Rights Reserved. </p> <p>This work is licensed under a Creative Commons Attribute-NonCommercial-ShareAlike 4.0 International License.</p>
         </div>
     </footer>
 </template>

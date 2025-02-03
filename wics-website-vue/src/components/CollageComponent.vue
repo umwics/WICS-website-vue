@@ -1,16 +1,28 @@
 <template>
-    <div class="collage-container">
-        <img v-for="item in content.images" :key="item?.position" :src="item.imageSrc" :alt="item.alt" />
+    <div class="collage-container" :class="collageFormationStyle">
+        <img v-for="item in images" :key="item?.position" :src="item.imageSrc" :alt="item.alt" />
     </div>
 </template>
 
-<script>
-export default {
-    name: 'CollageComponent',
-    props: {
-        content: Object
-    }
-}
+<script setup>
+import { computed } from 'vue';
+
+const name = "CollageComponent";
+
+defineOptions({
+    name: name,
+});
+
+const props = defineProps({
+    images: { type: Object }
+})
+
+/** 
+ * creates a BEM class name depending on how many images there are, 
+ * so the design of collage varies depending on the amount of images. 
+ */
+const collageFormationStyle = computed(() => "collage-container--formation-for-" + props.images?.length);
+
 </script>
 
 <style scoped>
@@ -19,9 +31,30 @@ export default {
     margin-inline: auto;
     display: grid;
     gap: 0.5rem;
-    grid-template-areas: 
-    "one   one   five five five two  two"
-    "three three five five five four four";
+}
+
+.collage-container--formation-for-5 {
+    grid-template-areas:
+        "one   one   five five five two  two"
+        "three three five five five four four";
+}
+
+.collage-container--formation-for-4 {
+    grid-template-areas:
+        "one   one   five five five two  two"
+        "three three five five five four four";
+}
+
+.collage-container--formation-for-3 {
+    grid-template-areas:
+        "one   one   two   two   three   three"
+        "one   one   two   two   three   three";
+}
+
+.collage-container--formation-for-2 {
+    grid-template-areas:
+        "one   one   two  two"
+        "one   one   two  two";
 }
 
 .collage-container img {
@@ -50,5 +83,5 @@ export default {
 
 .collage-container :nth-child(5) {
     grid-area: five;
-} 
+}
 </style>

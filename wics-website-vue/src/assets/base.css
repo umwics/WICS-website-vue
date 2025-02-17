@@ -24,7 +24,7 @@
     --color-background-light-hover: var(--color-wics-light-blue);
     --color-background-blue-hover: var(--color-wics-aa-blue);
     --color-background-dark-hover: var(--color-wics-dark-blue);
-    --color-background-darker_blue-hover: var(--color-wics-darker-blue)
+    --color-background-darker_blue-hover: var(--color-wics-darker-blue);
 
     --color-text-dark: var(--color-wics-darker-blue);
     --color-text-light: var(--color-wics-light-white);

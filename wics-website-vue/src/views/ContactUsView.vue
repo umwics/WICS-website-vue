@@ -1,7 +1,7 @@
 <template>
     <div class="view-container">
         <div class="title">
-            <h1>Contact Us</h1>
+            <h1 class="title-head">Contact Us</h1>
             <p>Have something to share with us? Connect with us on our social media!</p>
         </div>
 
@@ -21,10 +21,6 @@ import { socialMedia } from '@/assets/data/contactUs/socialMedia.js'
 
 <style scoped>
 @media (max-width: 800px) {
-    .title {
-        padding-bottom: 10%;
-    }
-
     .socials {
         display: grid;
         grid-template-columns: 1fr;
@@ -35,10 +31,6 @@ import { socialMedia } from '@/assets/data/contactUs/socialMedia.js'
 }
 
 @media (min-width: 801px) {
-    .title {
-        padding-bottom: 5%;
-    }
-
     .socials {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

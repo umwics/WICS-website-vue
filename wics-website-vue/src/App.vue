@@ -60,6 +60,22 @@ body {
   }
 }
 
+@media (max-width: 800px) {
+  .title {
+      padding-bottom: 10%;
+  }
+}
+
+@media (min-width: 801px) {
+  .title {
+      padding-bottom: 4%;
+  }
+}
+
+.title-head {
+  padding-bottom: 1%;
+}
+
 /***************************/
 
 /* global style for card components */

@@ -19,15 +19,7 @@ import CardComponent from '../components/CardComponent.vue'
 </script>
 
 <style scoped>
-    .title-head {
-        padding-bottom: 1%;
-    }
-
     @media (max-width: 800px) {
-        .title {
-            padding-bottom: 10%;
-        }
-
         .events-container{
             display: grid;
             grid-template-columns: 1fr;
@@ -36,10 +28,6 @@ import CardComponent from '../components/CardComponent.vue'
     } 
 
     @media (min-width: 801px) {
-        .title {
-            padding-bottom: 4%;
-        }
-
         .events-container{
             display: grid;
             grid-template-columns: repeat(2, 1fr);

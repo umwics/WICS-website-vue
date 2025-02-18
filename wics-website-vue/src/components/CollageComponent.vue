@@ -27,7 +27,7 @@ const collageFormationStyle = computed(() => "collage-container--formation-for-"
 
 <style scoped>
 .collage-container {
-    max-width: 800px;
+    width: 100%;
     margin-inline: auto;
     display: grid;
     gap: 0.5rem;

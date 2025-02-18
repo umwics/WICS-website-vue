@@ -36,5 +36,5 @@
 
     --color-shadow-dark: var(--color-wics-darker-blue);
 
-    --font-name: 'Poppins';
+    --font-primary: 'Poppins', Arial, sans-serif;
 }

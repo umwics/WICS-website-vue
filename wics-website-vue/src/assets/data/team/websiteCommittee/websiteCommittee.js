@@ -86,12 +86,12 @@ export const websiteCommittee = [
     },
     {
         "image": websiteMember8,
-        "name": "Divyata Gosai",
+        "name": "Marda",
         "position": "Website Committee Member",
         "memberType": "Contributor",
         "pronouns": " ",
         "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "altImage": "Image of Divyata Gosai, WICS Website Committee Member"
+        "altImage": "Image of Marda, WICS Website Committee Member"
     },
     {
         "image": websiteMember9,

@@ -1,13 +1,13 @@
 import websiteCoordinatorImage from './images/Ara.jpg';
 import websiteMember1 from '../defaultMember.jpeg';
-import websiteMember2 from '../KC.webp';
+import websiteMember2 from './images/KC.webp';
 import websiteMember3 from '../defaultMember.jpeg';
 import websiteMember4 from '../defaultMember.jpeg';
-import websiteMember5 from '../Yashsavi.jpg';
+import websiteMember5 from './images/Yashsavi.jpg';
 import websiteMember6 from '../defaultMember.jpeg';
 import websiteMember7 from '../defaultMember.jpeg';
 import websiteMember8 from '../defaultMember.jpeg';
-import websiteMember9 from '../corrina.webp';
+import websiteMember9 from './images/corrina_img.webp';
 
 export const websiteCommittee = [
     {

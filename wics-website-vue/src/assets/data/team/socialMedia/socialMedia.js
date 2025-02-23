@@ -1,5 +1,5 @@
 import socialMediaCoordinatorImage from './images/Brooklynn.JPG';
-import asstSocialMediaCoordinatorImage from '../Alicia.webp';
+import asstSocialMediaCoordinatorImage from './images/Alicia.webp';
 
 export const socialMedia = [
     {

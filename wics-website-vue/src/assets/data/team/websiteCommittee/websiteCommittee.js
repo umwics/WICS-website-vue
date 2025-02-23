@@ -1,15 +1,13 @@
 import websiteCoordinatorImage from './images/Ara.jpg';
 import websiteMember1 from '../defaultMember.jpeg';
-import websiteMember2 from '../defaultMember.jpeg';
+import websiteMember2 from '../KC.webp';
 import websiteMember3 from '../defaultMember.jpeg';
 import websiteMember4 from '../defaultMember.jpeg';
-import websiteMember5 from '../defaultMember.jpeg';
+import websiteMember5 from '../Yashsavi.jpg';
 import websiteMember6 from '../defaultMember.jpeg';
 import websiteMember7 from '../defaultMember.jpeg';
 import websiteMember8 from '../defaultMember.jpeg';
-import websiteMember9 from '../defaultMember.jpeg';
-import websiteMember10 from '../defaultMember.jpeg';
-import websiteMember11 from '../defaultMember.jpeg';
+import websiteMember9 from '../corrina.webp';
 
 export const websiteCommittee = [
     {
@@ -63,7 +61,7 @@ export const websiteCommittee = [
         "position": "Website Committee Member",
         "memberType": "Contributor",
         "pronouns": " ",
-        "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "Hi, I am Yashsavi Negi aka Yashi. I am a Computer Science Honour student minoring in Business for Leadership and Organization. I love working on this website and learning from others. I love dancing, reading and swimming. If you ever see me, feel free to say hi. I love talking or we can just yap :)",
         "altImage": "Image of Yashsavi Negi, WICS Website Committee Member"
     },
     {
@@ -77,15 +75,6 @@ export const websiteCommittee = [
     },
     {
         "image": websiteMember7,
-        "name": "Simi Adeniyi",
-        "position": "Website Committee Member",
-        "memberType": "Contributor",
-        "pronouns": " ",
-        "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "altImage": "Image of Simi Adeniyi, WICS Website Committee Member"
-    },
-    {
-        "image": websiteMember8,
         "name": "Marda",
         "position": "Website Committee Member",
         "memberType": "Contributor",
@@ -94,7 +83,7 @@ export const websiteCommittee = [
         "altImage": "Image of Marda, WICS Website Committee Member"
     },
     {
-        "image": websiteMember9,
+        "image": websiteMember8,
         "name": "Jillian Manguba",
         "position": "Website Committee Member",
         "memberType": "Contributor",
@@ -103,16 +92,7 @@ export const websiteCommittee = [
         "altImage": "Image of Jillian Manguba, WICS Website Committee Member"
     },
     {
-        "image": websiteMember10,
-        "name": "Justine Dyker",
-        "position": "Website Committee Member",
-        "memberType": "Contributor",
-        "pronouns": " ",
-        "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "altImage": "Image of Justine Dyker, WICS Website Committee Member"
-    },
-    {
-        "image": websiteMember11,
+        "image": websiteMember9,
         "name": "Corrina Colvinson",
         "position": "Website Committee Member",
         "memberType": "Contributor",

@@ -54,6 +54,8 @@ const imagePositionClasses = 'image-position--' + props.imagePosition;
 }
 
 .card-img {
+    width: 100%;  
+    height: 200px; 
     object-fit: cover;
     display: block;
     padding: 0;

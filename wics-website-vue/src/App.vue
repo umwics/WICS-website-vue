@@ -33,7 +33,7 @@ import FooterComponent from './components/FooterComponent.vue';
 body {
   background-color: var(--color-background-light);
   color: var(--color-text-dark);
-  font-family: var(--font-name);
+  font-family: var(--font-primary);
 
   text-align: center;
 }

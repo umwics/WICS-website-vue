@@ -19,7 +19,7 @@ export const admin = [
         "position": "Vice President",
         "memberType": "Executive",
         "pronouns": " ",
-        "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "Hi hi! I’m Dhvani Thakkar, and I’m the vice president for this year!! I’m in my final year of Computer Science with a minor in Statistics, and WICS has been a big part of my life for the past three years. I absolutely love the sense of community it brings, and I can’t wait for you all to experience the exciting events, outreach initiatives, and mentorship programs we have planned this year. When I’m not studying or working, you’ll probably find me lost in a fiction book, watching a good rom-com, or trying out new restaurants and cafés around the city. Oh, and a fun fact about me—I can fluently speak six languages! Looking forward to an amazing year together!",
         "altImage": "Image of Dhvani Thakkar, WICS Vice-president"
     },
     {

@@ -8,24 +8,24 @@ MIT License
 
 - EmailSVG, InstagramSVG: 
   - Copyright (c) Kenan Gundogan (https://github.com/kenangundogan/fontisto)
-  - Modifications by WICS Website Committee include:
-    - Adjusted colors to match WICS' brand.
+  - Modifications by UMWICS Website Committee include:
+    - Adjusted colors to match UMWICS' brand.
     - Resized dimensions to fit website's design and to make it responsive.
 - GitHubSVG, LinkedInSVG: 
-  - Copyright (c) Gitlab (https://gitlab.com/gitlab-org/gitlab-svgs?ref=iconduck.com)
-  - Modifications by WICS Website Committee include:
-    - Adjusted colors to match WICS' brand.
+  - Copyright (c) GitLab (https://gitlab.com/gitlab-org/gitlab-svgs?ref=iconduck.com)
+  - Modifications by UMWICS Website Committee include:
+    - Adjusted colors to match UMWICS' brand.
     - Resized dimensions to fit website's design and to make it responsive.
 - Menu Hamburger in NavBar.vue: 
   - Copyright (c) jaynewey (https://github.com/jaynewey/charm-icons)
-  - Modifications by WICS Website Committee include:
-    - Adjusted colors to match WICS' brand.
+  - Modifications by UMWICS Website Committee include:
+    - Adjusted colors to match UMWICS' brand.
     - Resized dimensions to fit website's design and to make it responsive.
     - Moved some stroke style out of the svg and into the style part of the code.
 - X in NavBar.vue: 
   - Copyright (c) hicon (https://hicon.me/)
-  - Modifications by WICS Website Committee include:
-    - Adjusted colors to match WICS' brand.
+  - Modifications by UMWICS Website Committee include:
+    - Adjusted colors to match UMWICS' brand.
     - Resized dimensions to fit website's design and to make it responsive.
     - Moved some stroke style out of the svg and into the style part of the code.
     - Made stroke bigger for better visibility.

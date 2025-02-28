@@ -8,19 +8,51 @@
                 science less intimidating and create a safe space for women to connect.
             </p>
         </div>
-        <img :src="mentorMingleImage" alt="Mentor Mingle ">
+        
+        <div class="collage-component">
+            <CollageComponent :images="images"></CollageComponent>
+        </div>
     </div>
 </template>
 
 <script setup>
 import mentorMingleImage from '@/assets/data/home/images/mentor-mingle-2023.jpeg'
+import CollageComponent from '@/components/CollageComponent.vue';
+
+const images = [
+    {
+        position: "one",
+        imageSrc: mentorMingleImage,
+        alt: "something"
+    },
+    {
+        position: "two",
+        imageSrc: mentorMingleImage,
+        alt: "something"
+    },
+    {
+        position: "three",
+        imageSrc: mentorMingleImage,
+        alt: "something"
+    },
+    {
+        position: "four",
+        imageSrc: mentorMingleImage,
+        alt: "something"
+    },
+    {
+        position: "five",
+        imageSrc: mentorMingleImage,
+        alt: "something"
+    }
+]
 </script>
 
 <style scoped>
-img {
-    width: 70%;
-    max-width: 80%;
-    min-width: 70%;
-    padding: 1rem;
+
+.collage-component {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>

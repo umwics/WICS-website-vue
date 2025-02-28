@@ -45,13 +45,15 @@ const images = [
         imageSrc: mentorMingleImage,
         alt: "something"
     }
+    
 ]
 </script>
 
 <style scoped>
 
 .collage-component {
-    width: 800px;
+    
+    padding-top: 12px;
     margin-left: auto;
     margin-right: auto;
 }

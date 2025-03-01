@@ -1,5 +1,5 @@
 import eventsCoordinatorImage from './images/Luisa.jpeg';
-import asstEventsCoordinatorImage from '../defaultMember.jpeg';
+import asstEventsCoordinatorImage from './images/Rimsha.webp';
 
 export const events = [
     {
@@ -17,7 +17,7 @@ export const events = [
         "position": "Assistant Events Coordinator",
         "memberType": "Appointed",
         "pronouns": " ",
-        "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "Hi! My name is Rimsha, I am the Assistant Events Coordinator for this year! I am currently in my second year of Computer Science Major with a Minor in math. I am very grateful to be part of the WICS team this year and work along with the others in my team to bring creative and fun events to you guys. I can’t wait for you guys to attend and experience our upcoming events and opportunities. Other than being part of WICS some other things I enjoy are weightlifting, graphic design and baking",
         "altImage": "Image of Rimsha Irfan, WICS Assistant Events Coordinator"
     }
 ];

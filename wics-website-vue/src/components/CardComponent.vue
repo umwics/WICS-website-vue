@@ -53,19 +53,28 @@ const imagePositionClasses = 'image-position--' + props.imagePosition;
     margin: 0;
 }
 
-.card-img {
-    width: 100%;  
-    height: 200px; 
+.image-position--top .card-img {
+    margin-bottom: 30px;
+}
+
+.image-position--top .card-img img {
+    width: 100%;
+    height: 300px;
     object-fit: cover;
     display: block;
     padding: 0;
     margin: 0;
 }
 
-.image-position--top .card-img {
-    margin-bottom: 30px;
-    width: 100%;
-    height: 100%;
+@media (max-width: 800px) {
+    .image-position--side .card-img {
+        margin-bottom: 30px;
+    }
+
+    .image-position--side .card-img img {
+        width: 100%;
+        height: 300px;
+    }
 }
 
 /* the image only goes to the side for bigger screens */
@@ -84,6 +93,10 @@ const imagePositionClasses = 'image-position--' + props.imagePosition;
     .image-position--side .card-img {
         width: 60%;
         height: 100%;
+    }
+
+    .image-position--side .card-img img {
+        width: 100%;
     }
 }
 

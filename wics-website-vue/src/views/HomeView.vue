@@ -16,43 +16,45 @@
 </template>
 
 <script setup>
-import mentorMingleImage from '@/assets/data/home/images/mentor-mingle-2023.jpeg'
+import mentorMingleImage23 from '@/assets/data/home/images/mentor-mingle-2023.jpeg'
+import lougeImage from '@/assets/data/home/images/UMWICS-louge-photo.png'
+import mentorMingleImage24 from '@/assets/data/home/images/mentor-mingle-24.webp'
+import mentorNetworkingImage from '@/assets/data/home/images/mentor-networking-24.png'
+import communityMeetupImage from '@/assets/data/home/images/fall-community-meetup-24.png'
 import CollageComponent from '@/components/CollageComponent.vue';
 
 const images = [
     {
         position: "one",
-        imageSrc: mentorMingleImage,
+        imageSrc: mentorMingleImage23,
         alt: "something"
     },
     {
         position: "two",
-        imageSrc: mentorMingleImage,
+        imageSrc: lougeImage,
         alt: "something"
     },
     {
         position: "three",
-        imageSrc: mentorMingleImage,
+        imageSrc: communityMeetupImage,
         alt: "something"
     },
     {
         position: "four",
-        imageSrc: mentorMingleImage,
+        imageSrc: mentorNetworkingImage,
         alt: "something"
     },
     {
         position: "five",
-        imageSrc: mentorMingleImage,
+        imageSrc: mentorMingleImage24,
         alt: "something"
     }
-    
 ]
 </script>
 
 <style scoped>
 
 .collage-component {
-    
     padding-top: 12px;
     margin-left: auto;
     margin-right: auto;

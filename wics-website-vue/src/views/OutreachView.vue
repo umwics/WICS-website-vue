@@ -43,5 +43,4 @@ const position = 'side'
 .outreach-card {
     white-space: pre-line;
 }
-
 </style>

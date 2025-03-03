@@ -13,7 +13,10 @@
 
 <script setup>
 const props = defineProps({
-    socialMedia: { type: Object }
+    socialMedia: { 
+        type: Object,
+        required: true 
+    }
 })
 </script>
 

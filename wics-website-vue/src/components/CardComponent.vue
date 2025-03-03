@@ -30,8 +30,14 @@ const props = defineProps({
         default: 'top'
     },
     image: { type: String },
-    title: { type: String },
-    description: { type: String },
+    title: { 
+        type: String, 
+        required: true
+    },
+    description: { 
+        type: String,
+        required: true
+    },
 });
 
 // validates imagePosition prop values as it has specific valid options 

@@ -91,6 +91,22 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
     cursor: pointer;
 }
 
+.menu-button { 
+    border: 1px solid var(--color-border-dark);
+} 
+
+@media (hover: hover) {
+  .menu-button:hover {
+    background-color: var(--color-background-dark-hover);
+    color: var(--color-text-light);
+  }
+}
+
+.menu-button:active {
+  background-color: var(--color-background-darker_blue-hover);
+  color: var(--color-text-light);
+}
+
 @media (max-width: 800px) {
     nav {
         background-color: var(--color-background-blue);

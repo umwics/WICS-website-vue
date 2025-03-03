@@ -15,7 +15,13 @@
 const props = defineProps({
     socialMedia: { 
         type: Object,
-        required: true 
+        required: true,
+        default: () => ({
+            "svgIcon": '#',
+            "name": "Social Media",
+            "link": "#",
+            "username": "umwics"
+        })
     }
 })
 </script>

@@ -31,6 +31,7 @@ const props = defineProps({
 .tags {
     display: flex;
     gap: 5px;
+    flex-shrink: 0;
 }
 .member-info-container {
     display: flex;

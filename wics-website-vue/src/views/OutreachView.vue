@@ -7,9 +7,6 @@
         <div class="outreach-container">
             <div v-for="item in outreach" :key="item?.position" class="outreach-card">
                 <CardComponent :imagePosition="position" :image="item.image" :title="item.title" :description="item.description"  />
-
-            <div v-for="item in outreach" :key="item?.position" class="outreach">
-                <CardComponent class="outreach-card" :image="item.image" :title="item.title" :description="item.description"  />
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
     <div class="view-container">
-        <h1>Women in Computer Science <br>(WICS)</h1>
+        <h1>Univeristy of Manitoba: Women in Computer Science <br>(UMWICS)</h1>
         <p>
             UMWICS is a student group supporting women and gender minorities in computer science. Our aim is to make
             computer

@@ -5,7 +5,7 @@
             <p>These are the outreach events and workshops WICS hoted this year!</p>
         </div>
         <div class="outreach-container">
-            <div v-for="item in outreach" :key="outreach?.position" class="item">
+            <div v-for="item in outreach" :key="item?.position" class="outreach">
                 <CardComponent class="outreach-card" :image="item.image" :title="item.title" :description="item.description"  />
             </div>
         </div>

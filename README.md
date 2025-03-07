@@ -100,14 +100,18 @@ npm run lint
             - `images`: contains images shown in events page
     - `base.css`: contains font, brand colors, css property colors, and their naming convention
   - `components`: contains reusable components
+  - `composables` : contains reusable functions or data
   - `router`: contains the routes to the pages of the website
   - `views`: contains the pages of the website
-  - `App.vue` : contains the layout and global styles of the website.
+  - `App.vue` : contains the layout and global styles of the website
 
 The data that will be used in reusable components, such as cards, will be in `src/assets/data/` so it's easier to import them to the `src/views` files as one or few imports. Also, these are the information that will most likely be updated every year, so only having to go to `src/assets/data/` to update information allows this website to be easier to maintain. Some texts that aren't in `src/assets/data` will be on their own `src/views` files, and this will be the case if the information is only a few lines, can't be grouped meaningfully, won't be updated yearly, or aren't used in reusable components.
 
-## Updating information
+## Naming Conventions
+  - CSS variables in `base.css`: `[color/font]-[css property]-[color/shade]-[state]`
+  - Modifier classes: `prop-name--prop-value` (BEM)
 
+## Updating information
 Most of the texts on the website are stored in `src/assets/data/` as arrays of objects in a .js file. If the texts need to be shown with images, the images would be imported in that same .js file, and would then be exported to be used by the pages that need them.
 
 ### Team

@@ -33,7 +33,7 @@ import FooterComponent from './components/FooterComponent.vue';
 body {
   background-color: var(--color-background-light);
   color: var(--color-text-dark);
-  font-family: var(--font-name);
+  font-family: var(--font-primary);
 
   text-align: center;
 }
@@ -58,6 +58,22 @@ body {
     padding-left: 10rem;
     padding-right: 10rem;
   }
+}
+
+@media (max-width: 800px) {
+  .title {
+      padding-bottom: 10%;
+  }
+}
+
+@media (min-width: 801px) {
+  .title {
+      padding-bottom: 4%;
+  }
+}
+
+.title-head {
+  padding-bottom: 1%;
 }
 
 /***************************/

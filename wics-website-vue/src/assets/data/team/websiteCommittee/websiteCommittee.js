@@ -32,7 +32,7 @@ export const websiteCommittee = [
         "name": "Yashsavi Negi",
         "position": "Website Committee Member",
         "memberType": "Contributor",
-        "pronouns": " ",
+        "pronouns": "she/her",
         "description": "Hi, I am Yashsavi Negi aka Yashi. I am a Computer Science Honour student minoring in Business for Leadership and Organization. I love working on this website and learning from others. I love dancing, reading and swimming. If you ever see me, feel free to say hi. I love talking or we can just yap :)",
         "altImage": "Image of Yashsavi Negi, WICS Website Committee Member"
     },

@@ -7,9 +7,9 @@
                 <p class="position"><i>{{ member?.position }}</i></p>
                 <div class="tags">
                     <div class="tag">
-                            <p>{{ member?.memberType }}</p>
+                        <p>{{ member?.memberType }}</p>
                     </div>
-                     <div v-if="member?.pronouns" class="tag">
+                    <div v-if="member?.pronouns" class="tag">
                         <p>{{ member?.pronouns }}</p>
                     </div>
                 </div>
@@ -32,6 +32,7 @@ const props = defineProps({
     display: flex;
     gap: 5px;
 }
+
 .member-info-container {
     display: flex;
     flex-direction: row;
@@ -118,6 +119,8 @@ const props = defineProps({
 
     font-size: 11px;
     color: var(--color-text-light);
+
+    flex-shrink: 0;
 }
 
 .member-descr-container {

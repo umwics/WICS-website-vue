@@ -23,9 +23,8 @@
                 </template>
             </CardComponent>
 
-            <CardComponent>
+            <CardComponent title="Guidelines">
                 <template #secondary-content>
-                    <h1>Guidelines</h1>
                     <ol>
                         <li>Respect others in the lounge; this is included but not limited to their names, pronouns,
                             identities, and boundaries.</li>
@@ -87,7 +86,7 @@ ol {
     border: 2px solid black;
 }
 
-.lounge > * {
+.lounge>* {
     margin-bottom: 2rem;
 }
 

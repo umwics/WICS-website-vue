@@ -13,7 +13,7 @@ export const socialMedia = [
     {
         "svgIcon": linkedinSVG,
         "name": "LinkedIn",
-        "link": "https://ca.linkedin.com/company/university-of-manitoba-women-in-computer-science",
+        "link": "https://ca.linkedin.com/company/umwics",
         "username": "UManitoba WICS",
     },
     {

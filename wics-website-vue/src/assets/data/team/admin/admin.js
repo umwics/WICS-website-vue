@@ -37,7 +37,7 @@ export const admin = [
         "position": "Treasurer",
         "memberType": "Executive",
         "pronouns": " ",
-        "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "Hello! My name is Keira, and I am the Treasurer for UMWICS this year! I am in my third year of the Computer Science and Mathematics Join Honours program, and I am excited to help out the wonderful WICS community as a first-time exec. You might find me hanging out in student lounges, performing with the UofM Concert Band, or as a TA in a math or computer science course. I Love to chat, so come say hi!",
         "altImage": "Image of Keira Pasveer, WICS Treasurer"
     }
 ];

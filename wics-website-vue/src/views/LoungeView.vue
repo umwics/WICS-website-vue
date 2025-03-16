@@ -6,12 +6,8 @@
         </div>
 
         <div class="lounge">
-            <CardComponent title="WOMEN IN COMPUTER SCIENCE LOUNGE" description="The Women in Computer Science Lounge is a space dedicated to women and gender minorities within
-                        computer science. Its purpose is to be a space specifically for underrepresented groups in CS to
-                        meet, support one another, and form community. Despite its name, the lounge is not limited just
-                        to
-                        women. Any person who self-identifies as a gender minority (e.g. non-binary, genderqueer,
-                        two-spirit, transgender, etc.) is welcome!">
+            <CardComponent title="WOMEN IN COMPUTER SCIENCE LOUNGE"
+                description="The Women in Computer Science Lounge is a space dedicated to women and gender minorities within computer science. Its purpose is to be a space specifically for underrepresented groups in CS to meet, support one another, and form community. Despite its name, the lounge is not limited just to women. Any person who self-identifies as a gender minority (e.g. non-binary, genderqueer, two-spirit, transgender, etc.) is welcome!">
 
                 <template #secondary-content>
                     <h1>FEEDBACK FORM</h1>

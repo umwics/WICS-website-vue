@@ -171,7 +171,7 @@ a {
     }
 
     a:active {
-        background-color: var(--color-background-dark-hover);
+        background-color: var(--color-background-darker_blue-active);
         border-radius: 20px;
     }
 }

@@ -14,7 +14,7 @@ export const socialMedia = [
         "svgIcon": linkedinSVG,
         "name": "LinkedIn",
         "link": "https://ca.linkedin.com/company/umwics",
-        "username": "UManitoba WICS",
+        "username": "@umwics",
     },
     {
         "svgIcon": emailSVG,

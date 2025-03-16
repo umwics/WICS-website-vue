@@ -8,6 +8,7 @@
     --color-wics-regular-blue: #6097c9;
     --color-wics-light-blue: #88b9e3;
     --color-wics-lighter-blue: #c6dbed;
+    --color-wics-lightest-blue: #d9e7f8;
 
     /* this blue is close to regular blue but it passes WCAG AA with #fefefe */
     --color-wics-aa-blue: #3C77AF;
@@ -15,19 +16,25 @@
 
     /* naming convention: [color/font]-[css property]-[color/shade]-[state] */
     --color-background-light: var(--color-wics-light-white);
+    --color-background-lighter_blue: var(--color-wics-lighter-blue);
+    --color-background-lightest_blue: var(--color-wics-lightest-blue);
     --color-background-blue: var(--color-wics-aa-blue);
     --color-background-dark: var(--color-wics-darker-blue);
 
     --color-background-light-hover: var(--color-wics-light-blue);
+    --color-background-blue-hover: var(--color-wics-aa-blue);
     --color-background-dark-hover: var(--color-wics-dark-blue);
 
     --color-text-dark: var(--color-wics-darker-blue);
     --color-text-light: var(--color-wics-light-white);
     --color-text-gray: var(--color-wics-dark-gray);
 
-    --color-border-dark: var(--color-wics-darker-blue);
+    --color-border-dark: var(--color-wics-dark-blue);
+    --color-border-darker_blue: var(--color-wics-darker-blue);
+
+    --color-svg-dark_blue: var(--color-wics-dark-blue);
 
     --color-shadow-dark: var(--color-wics-darker-blue);
 
-    --font-name: 'Poppins';
+    --font-primary: 'Poppins', Arial, sans-serif;
 }

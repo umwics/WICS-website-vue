@@ -1,5 +1,5 @@
 import socialMediaCoordinatorImage from './images/Brooklynn.JPG';
-import asstSocialMediaCoordinatorImage from '../defaultMember.jpeg';
+import asstSocialMediaCoordinatorImage from './images/Alicia.webp';
 
 export const socialMedia = [
     {
@@ -8,7 +8,7 @@ export const socialMedia = [
         "position": "Social Media Coordinator",
         "memberType": "Executive",
         "pronouns": "she/her",
-        "description": "This is a default message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "Hi! I'm Brooklynn Wood, returning as your Social Media Coordinator! Currently in my third year, I am a Computer Science Honours Student and getting a minor in art history. Outside of CS, my other passions are being an artist, a dancer, and generally anything creative. This is where my enjoyment of content creation comes from! I hope to bring some new and exciting things to our social media this year, share more in-person coverage of our events, and broaden our posts beyond our events as well!",
         "altImage": "Image of Brooklyn Wood, WICS Social Media Coordinator"
     },
     {

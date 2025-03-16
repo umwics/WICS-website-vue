@@ -33,14 +33,16 @@ import FooterComponent from './components/FooterComponent.vue';
 body {
   background-color: var(--color-background-light);
   color: var(--color-text-dark);
-  font-family: var(--font-name);
+  font-family: var(--font-primary);
 
   text-align: center;
 }
 
 .main-view {
-  flex: 1; 
+  flex: 1;
 }
+
+/* global style for views */
 
 @media (min-width: 320px) {
   .view-container {
@@ -57,4 +59,74 @@ body {
     padding-right: 10rem;
   }
 }
+
+@media (max-width: 800px) {
+  .title {
+      padding-bottom: 10%;
+  }
+}
+
+@media (min-width: 801px) {
+  .title {
+      padding-bottom: 4%;
+  }
+}
+
+.title-head {
+  padding-bottom: 1%;
+}
+
+/***************************/
+
+/* global style for card components */
+
+.card-top {
+  background-color: var(--color-background-lighter_blue);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  height: 34px;
+  border-bottom: 2px solid var(--color-border-darker_blue);
+}
+
+.card-container {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid var(--color-border-darker_blue);
+
+  word-break: break-word;
+}
+
+/***************************/
+
+/* global style for button and psuedo-button elements, excluding navigation bar */
+
+.button {
+  text-decoration: none;
+  background-color: var(--color-background-lightest_blue);
+  color: var(--color-text-dark);
+
+  transition: 0.2s;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border: 2px solid var(--color-border-dark);
+  border-radius: 20px;
+
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: var(--color-background-blue-hover);
+    color: var(--color-text-light);
+  }
+}
+
+.button:active {
+  background-color: var(--color-background-dark-hover);
+  color: var(--color-text-light);
+}
+
+/***************************/
 </style>

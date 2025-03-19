@@ -2,7 +2,7 @@
     <div class="view-container">
         <div class="title">
             <h1> UMWICS Team</h1>
-            <p>These are the members of WICS during the 2024-2025 school year.</p>
+            <p>These are the members of UMWICS during the 2024-2025 school year.</p>
         </div>
 
         <div>
@@ -65,10 +65,6 @@ import { websiteCommittee } from '@/assets/data/team/websiteCommittee/websiteCom
 </script>
 
 <style scoped>
-.title {
-    padding-bottom: 3%;
-}
-
 .team-type {
     text-align: start;
 }

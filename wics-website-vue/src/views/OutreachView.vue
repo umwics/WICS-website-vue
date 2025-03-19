@@ -6,8 +6,15 @@
         </div>
         <div class="outreach-container">
             <div v-for="item in outreach" :key="item?.position" class="outreach-card">
-                <CardComponent :imagePosition="position" :image="item.image" :title="item.title" :description="item.description"  />
+                <CardComponent :imagePosition="position" :image="item.image" :title="item.title" :description="item.description" />
             </div>
+        <CardComponent title="Outreach Discord Server" description="Interested in volunteering with us?">
+            <template #secondary-content>
+                <h1>FEEDBACK FORM</h1>
+                <p>Join our server below to get more information about our volunteer opportunities!</p>
+                <a class="button" href="https://discord.gg/G98TGzG3UD" target="_blank">{{ "Sign up here!" }}</a>
+            </template>
+        </CardComponent>
         </div>
     </div>
 </template>
@@ -21,6 +28,11 @@ const position = 'side'
 <style scoped>
 .title {
     padding-bottom: 3%;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
 }
 
 @media (max-width: 800px) {

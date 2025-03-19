@@ -1,6 +1,5 @@
 import fortRichmondCollegiate from './images/fort-richmond-collegiate.jpg';
 import gameDevWorkshop from './images/game-dev-workshop.png';
-import outreachDiscordServer from './images/outreach-discord-server.png';
 
 export const outreach = [
     {
@@ -12,10 +11,5 @@ export const outreach = [
         "image": gameDevWorkshop,
         "title": "Game Development Workshops",
         "description": "Last fall, WICS Outreach hosted game development workshops for grade 5-8 students! We taught them how to create their own 2D-platform game using Gamefroot.\n\nThis is all in partnership with CanU, a Winnipeg-based charitable organization.",
-    },
-    {
-        "image": outreachDiscordServer,
-        "title": "Outreach Discord Server",
-        "description": "Interested in volunteering with us?\n\nJoin our server below to get more information about our volunteer opportunities! Sign up here (https://discord.gg/G98TGzG3UD)",
     }
 ];

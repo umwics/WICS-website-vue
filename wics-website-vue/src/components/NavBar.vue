@@ -89,22 +89,29 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
     stroke-linecap: round;
     stroke-linejoin: round;
     cursor: pointer;
+
+    border-radius: 12px;
 }
 
 .menu-button { 
-    border: 1px solid var(--color-border-dark);
+    border: 2px solid var(--color-border-dark);
+    border-radius: 12px;
 } 
 
 @media (hover: hover) {
-  .menu-button:hover {
+  .menu-button button:hover {
     background-color: var(--color-background-dark-hover);
     color: var(--color-text-light);
+    border: 2px solid var(--color-background-dark-hover);
+    border-radius: 12px;
   }
 }
 
 .menu-button:active {
   background-color: var(--color-background-darker_blue-hover);
   color: var(--color-text-light);
+  border: 2px solid var(--color-background-darker_blue-hover);
+  border-radius: 12px;
 }
 
 @media (max-width: 800px) {

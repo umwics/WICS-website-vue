@@ -27,27 +27,27 @@ const images = [
     {
         position: "one",
         imageSrc: mentorMingleImage23,
-        alt: "something"
+        alt: "The UMWICS 2023 Mentor Mingle group photo. Has several students and professionals standing together smiling. The colouring has an orange hue."
     },
     {
         position: "two",
         imageSrc: lougeImage,
-        alt: "something"
+        alt: "Four members of UMWICS in the UMWICS lounge. One member is sitting a black chair, with a laptop in her lap. She is showing something on her laptop to the other three members, whom are all standing. All members are looking at the laptop and smiling."
     },
     {
         position: "three",
         imageSrc: communityMeetupImage,
-        alt: "something"
+        alt: "Photo taken from the UMWICS 2024 Fall Community Meet Up event. Five members of UMWICS are sitting on black chairs in a light blue room, facing towards the center of the photo. One member is standing, facing away."
     },
     {
         position: "four",
         imageSrc: mentorNetworkingImage,
-        alt: "something"
+        alt: "Photo taken from the UMWICS 2024 Mentor Mingle event. Several UMWICS members are sitting in office style chairs, looking towards two computer science professionals, who are talking. They are in an office cubical in a grey office room."
     },
     {
         position: "five",
         imageSrc: mentorMingleImage24,
-        alt: "something"
+        alt: "The UMWICS 2024 Mentor Mingle group photo. Has several students and professionals standing together smiling."
     }
 ]
 </script>

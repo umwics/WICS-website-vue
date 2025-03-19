@@ -27,18 +27,15 @@ defineOptions({
 const props = defineProps({
     imagePosition: {
         type: String,
-        required: true,
         default: 'top'
     },
     image: { type: String },
     title: { 
         type: String, 
-        default: 'Title',
         required: true
     },
     description: { 
         type: String,
-        default: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Inceptos lorem ullamcorper purus sodales sem lobortis. Interdum neque egestas dictum mattis auctor ut nunc cubilia.',
         required: true
     },
 });

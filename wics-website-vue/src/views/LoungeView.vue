@@ -6,7 +6,7 @@
         </div>
 
         <div class="lounge">
-            <CardComponent title="WOMEN IN COMPUTER SCIENCE LOUNGE" description="The Women in Computer Science Lounge is a space dedicated to women and gender minorities within
+            <CardComponent title="UNIVERSITY OF MANITOBA WOMEN IN COMPUTER SCIENCE LOUNGE" description="The University of Manitoba Women in Computer Science Lounge is a space dedicated to women and gender minorities within
                         computer science. Its purpose is to be a space specifically for underrepresented groups in CS to
                         meet, support one another, and form community. Despite its name, the lounge is not limited just
                         to

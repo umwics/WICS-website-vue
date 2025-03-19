@@ -2,7 +2,7 @@
     <div class="view-container">
         <div class="title">
             <h1>UMWICS Outreach</h1>
-            <p>These are the outreach events and workshops WICS hoted this year!</p>
+            <p>These are the outreach events and workshops WICS hosted this year!</p>
         </div>
         <div class="outreach-container">
             <div v-for="item in outreach" :key="item?.position" class="outreach-card">

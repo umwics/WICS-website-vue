@@ -3,12 +3,14 @@
         <div class="card-top"></div>
         <div class="main">
             <div :class="imagePositionClasses">
-                <div class="card-img">
-                    <img :v-if="image" :src="image" />
+                <div  v-if="image" class="card-img">
+                    <img :src="image" />
                 </div>
                 <div class="card-text">
                     <h2 class="title">{{ title }}</h2>
                     <p class="body">{{ description }}</p>
+                    <div v-if="title && description" class="section-divider"></div>
+                    <slot name="secondary-content"></slot>
                 </div>
             </div>
         </div>
@@ -44,6 +46,10 @@ const imagePositionClasses = 'image-position--' + props.imagePosition;
 <style scoped>
 * {
     box-sizing: border-box;
+}
+
+:slotted(h1) {
+    font-size: 24px !important;
 }
 
 .main {
@@ -116,7 +122,12 @@ const imagePositionClasses = 'image-position--' + props.imagePosition;
     font-size: 16px;
     padding: 0;
     margin: 0;
-
     white-space: pre-line
+}
+
+.section-divider {
+    height: 10px;
+    margin: 10px 0;
+    background-color: transparent;
 }
 </style>

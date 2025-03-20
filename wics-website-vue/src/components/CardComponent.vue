@@ -31,12 +31,10 @@ const props = defineProps({
     },
     image: { type: String },
     title: { 
-        type: String, 
-        required: true
+        type: String
     },
     description: { 
-        type: String,
-        required: true
+        type: String
     },
 });
 

@@ -144,6 +144,10 @@ a {
     cursor: pointer;
 }
 
+.nav-options {
+    -webkit-tap-highlight-color: transparent;
+}
+
 /* .router-link-active is a class from RouterLink */
 .nav-options a.router-link-active {
     background-color: var(--color-background-dark-hover);

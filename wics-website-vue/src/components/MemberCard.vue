@@ -23,7 +23,18 @@
 
 <script setup>
 const props = defineProps({
-    member: { type: Object },
+    member: { 
+        type: Object, 
+        required: true,
+        // default: () => ({ 
+        //     "image": "#",
+        //     "name": "Jane Doe",
+        //     "position": "Member",
+        //     "memberType": "Member Type",
+        //     "pronouns": "",
+        //     "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Inceptos lorem ullamcorper purus sodales sem lobortis. Interdum neque egestas dictum mattis auctor ut nunc cubilia."
+        // })
+    },
 })
 </script>
 

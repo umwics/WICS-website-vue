@@ -5,9 +5,13 @@
             <div>
                 <h3>{{ member?.name }}</h3>
                 <p class="position"><i>{{ member?.position }}</i></p>
-                <div class="tag">
-                    <p>{{ member?.memberType }}</p>
-                    <p>{{ member?.pronouns }}</p>
+                <div class="tags">
+                    <div class="tag">
+                        <p>{{ member?.memberType }}</p>
+                    </div>
+                    <div v-if="member?.pronouns" class="tag">
+                        <p>{{ member?.pronouns }}</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -19,11 +23,27 @@
 
 <script setup>
 const props = defineProps({
-    member: { type: Object },
+    member: { 
+        type: Object, 
+        required: true,
+        // default: () => ({ 
+        //     "image": "#",
+        //     "name": "Jane Doe",
+        //     "position": "Member",
+        //     "memberType": "Member Type",
+        //     "pronouns": "",
+        //     "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Inceptos lorem ullamcorper purus sodales sem lobortis. Interdum neque egestas dictum mattis auctor ut nunc cubilia."
+        // })
+    },
 })
 </script>
 
 <style scoped>
+.tags {
+    display: flex;
+    gap: 5px;
+}
+
 .member-info-container {
     display: flex;
     flex-direction: row;
@@ -111,6 +131,8 @@ const props = defineProps({
 
     font-size: 11px;
     color: var(--color-text-light);
+
+    flex-shrink: 0;
 }
 
 .member-descr-container {

@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import TeamView from '../views/TeamView.vue'
 import EventsView from '../views/EventsView.vue'
 import ContactUsView from '@/views/ContactUsView.vue'
+import OutreachView from '../views/OutreachView.vue'
 import LoungeView from '@/views/LoungeView.vue'
 
 const router = createRouter({
@@ -33,6 +34,11 @@ const router = createRouter({
       name: 'contactUs',
       component: ContactUsView
     },
+    {
+      path: '/outreach',
+      name: 'outreach',
+      component: OutreachView
+    }
   ]
 })
 

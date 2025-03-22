@@ -32,8 +32,12 @@ const props = defineProps({
         default: 'top'
     },
     image: { type: String },
-    title: { type: String },
-    description: { type: String },
+    title: { 
+        type: String
+    },
+    description: { 
+        type: String
+    },
 });
 
 // validates imagePosition prop values as it has specific valid options 
@@ -80,6 +84,11 @@ const imagePositionClasses = 'image-position--' + props.imagePosition;
     .image-position--side .card-img img {
         width: 100%;
         height: 300px;
+
+        object-fit: cover;
+        display: block;
+        padding: 0;
+        margin: 0;
     }
 }
 

@@ -11,12 +11,17 @@
 
             <div v-if="!navOptionsFit" class="menu-button">
                 <button @click="toggleNavOptionsDropdown">
-                    <svg v-if="!dropdownShown" viewBox="0 0 16 16" stroke-width="2" xmlns="http://www.w3.org/2000/svg"
+
+                    <!-- License: MIT. Made by jaynewey: https://github.com/jaynewey/charm-icons -->
+                    <svg v-if="!dropdownShown" viewBox="0 -1 16 16" stroke-width="2" xmlns="http://www.w3.org/2000/svg"
                         version="1.1">
                         <path d="m2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5" />
                     </svg>
-                    <svg v-else viewBox="0 0 24 24" stroke-width="3" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 12 7 7m5 5 5 5m-5-5 5-5m-5 5-5 5" />
+
+                    <!-- License: MIT. Made by hicon: https://hicon.me/ -->
+                    <svg v-else viewBox="-3 -4 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 5L5 19" stroke-width="3" />
+                        <path d="M5 5L19 19" stroke-width="3" />
                     </svg>
                 </button>
             </div>
@@ -142,6 +147,10 @@ a {
     transition: 0.4s;
     padding: 7px;
     cursor: pointer;
+}
+
+.nav-options {
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* .router-link-active is a class from RouterLink */

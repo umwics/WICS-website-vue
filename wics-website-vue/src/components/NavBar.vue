@@ -93,7 +93,7 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
     border-radius: 12px;
 }
 
-.menu-button { 
+.menu-button button { 
     border: 2px solid var(--color-border-dark);
     border-radius: 12px;
 } 
@@ -107,7 +107,7 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
   }
 }
 
-.menu-button:active {
+.menu-button button:active {
   background-color: var(--color-background-darker_blue-hover);
   color: var(--color-text-light);
   border: 2px solid var(--color-background-darker_blue-hover);

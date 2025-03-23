@@ -3,6 +3,7 @@
         <div class="title">
             <h1> UMWICS Team</h1>
             <p>These are the members of UMWICS during the 2024-2025 school year.</p>
+            <h1> UMWICS Team</h1>
         </div>
 
         <div>

@@ -1,8 +1,8 @@
 <template>
     <div class="view-container">
         <div class="title">
-            <h1 class="title-head">Team</h1>
-            <p>These are the members of WICS during the 2024-2025 school year.</p>
+            <h1 class="title-head">UMWICS Team</h1>
+            <p>These are the members of UMWICS during the 2024-2025 school year.</p>
         </div>
 
         <div>

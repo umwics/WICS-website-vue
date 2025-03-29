@@ -61,17 +61,27 @@ import { loungePictures } from '@/assets/data/lounge/lounge.js';
 <style scoped>
 .lounge iframe {
     width: 100%;
-    height: 600px;
+    aspect-ratio: 4 / 5;
 }
 
 ol {
     margin-left: 10px;
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
+@media (max-width: 1201px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+    }
+}
+
+@media (min-width: 1202px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
 }
 
 .gallery img {

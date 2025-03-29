@@ -1,25 +1,27 @@
 <template>
     <div class="view-container">
         <div class="title">
-            <h1>UMWICS Outreach</h1>
+            <h1 class="title-head">UMWICS Outreach</h1>
             <p>These are the outreach events and workshops WICS hosted this year!</p>
         </div>
         <div class="outreach-container">
             <div v-for="item in outreach" :key="item?.position" class="outreach-card">
-                <CardComponent :imagePosition="position" :image="item.image" :title="item.title" :description="item.description" />
+                <CardComponent :imagePosition="position" :image="item.image" :title="item.title"
+                    :description="item.description" />
             </div>
-        <CardComponent title="Outreach Discord Server" description="Interested in volunteering with us?">
-            <template #secondary-content>
-                <p>Join our server below to get more information about our volunteer opportunities!</p>
-                <a class="button outreach-button" href="https://discord.gg/G98TGzG3UD" target="_blank">{{ "Sign up here!" }}</a>
-            </template>
-        </CardComponent>
+            <CardComponent title="Outreach Discord Server" description="Interested in volunteering with us?">
+                <template #secondary-content>
+                    <p>Join our server below to get more information about our volunteer opportunities!</p>
+                    <a class="button outreach-button" href="https://discord.gg/G98TGzG3UD" target="_blank">Sign up
+                        here!</a>
+                </template>
+            </CardComponent>
         </div>
     </div>
 </template>
 
 <script setup>
-import { outreach } from '../assets/data/outreach/outreach.js' 
+import { outreach } from '../assets/data/outreach/outreach.js'
 import CardComponent from '../components/CardComponent.vue'
 const position = 'side'
 </script>

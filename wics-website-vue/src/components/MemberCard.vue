@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <div class="member-descr-container">
+        <div v-if="member?.description" class="member-descr-container">
             <p>{{ member?.description }}</p>
         </div>
     </div>
@@ -98,6 +98,7 @@ const props = defineProps({
 
     .member-info-container {
         padding: 3%;
+        padding-bottom: 0;
         column-gap: 15px;
     }
 

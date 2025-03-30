@@ -33,10 +33,24 @@ const collageFormationStyle = computed(() => "collage-container--formation-for-"
     gap: 0.5rem;
 }
 
-.collage-container--formation-for-5 {
-    grid-template-areas:
-        "one   one   five five five two  two"
-        "three three five five five four four";
+@media (max-width: 800px) {
+    .collage-container--formation-for-5 {
+        grid-template-areas:
+            "five five three three"
+            "five five three three"
+            "one one one one"
+            "two two four four"
+            "two two four four";
+    }
+}
+
+@media (min-width: 801px) {
+    .collage-container--formation-for-5 {
+        grid-template-areas:
+            "one one one one one one one one"
+            "five five three three two two four four"
+            "five five three three two two four four";
+    }
 }
 
 .collage-container--formation-for-4 {

@@ -4,9 +4,9 @@
             <h1 class="title-head">University of Manitoba <br> Women in Computer Science <br>(UMWICS)</h1>
             <p class="description">
                 University of Manitoba Women in Computer Science, also known as UMWICS, is a student group that promotes
-                and supports women and non-binary
+                and supports women and gender minority
                 involvement in the field of Computer Science. UMWICS hosts events to provide a welcoming and safe
-                space for women and non-binary students, and provide tools to prepare them for their success. UMWICS
+                space for women and gender minority students, and provide tools to prepare them for their success. UMWICS
                 also aims to promote and create awareness of the importance of women in the Computer Science field
                 within the community.
 

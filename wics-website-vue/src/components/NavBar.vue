@@ -32,6 +32,7 @@
             <RouterLink to="/team">Team</RouterLink>
             <RouterLink to="/events">Events</RouterLink>
             <RouterLink to="/outreach">Outreach</RouterLink>
+            <RouterLink to="/sponsor-us">Sponsor Us</RouterLink>
             <RouterLink to="/lounge">Lounge</RouterLink>
             <RouterLink to="/contact-us">Contact Us</RouterLink>
         </div>

@@ -13,7 +13,7 @@
         </div>
 
         <div class="end-view-message">
-            <p>Interested? Email us!</p>
+            <p>Interested? Email us! (link to email immediately)</p>
         </div>
     </div>
 </template>
@@ -30,7 +30,7 @@ import CardComponent from '../components/CardComponent.vue'
             grid-template-columns: 1fr;
             grid-gap: 2rem;
         }
-    } 
+    }
 
     @media (min-width: 801px) {
         .sponsorus-container{
@@ -49,7 +49,7 @@ import CardComponent from '../components/CardComponent.vue'
     }
     
     .end-view-message {
-        margin-top: 2rem;
+        margin-top: 1rem;
         font-size: 1.2rem;
         color: #2a4d7a;
         opacity: 0.8;

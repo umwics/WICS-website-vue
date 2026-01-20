@@ -113,9 +113,9 @@ const toggleNavOptionsDropdown = () => dropdownShown.value = !dropdownShown.valu
 }
 
 .menu-button button:active {
-  background-color: var(--color-background-darker_blue-hover);
+  background-color: var(--color-background-darker_blue-active);
   color: var(--color-text-light);
-  border: 2px solid var(--color-background-darker_blue-hover);
+  border: 2px solid var(--color-background-darker_blue-active);
   border-radius: 12px;
 }
 

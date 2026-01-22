@@ -15,11 +15,6 @@ Browser:
 
 ## Project Setup
 
-Ensure that you're in the wics-website-vue folder.
-```sh
-cd wics-website-vue
-```
-
 ### Installation
 Download [Node.js](https://nodejs.org/en), then do the following command. This will install all dependencies needed to develop and run the website.
 

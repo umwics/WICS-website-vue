@@ -13,7 +13,7 @@ import FooterComponent from './components/FooterComponent.vue';
 </script>
 
 <style>
-@import './assets/base.css';
+@import 'assets/base.css';
 
 * {
   margin: 0;

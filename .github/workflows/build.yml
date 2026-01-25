@@ -4,6 +4,7 @@ on: [push, pull_request]
 
 jobs:
   build:
+    name: build
     runs-on: ubuntu-latest
 
     steps:
@@ -15,6 +16,7 @@ jobs:
       - run: npm install
       - run: npm run build
   test:
+    name: test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -25,6 +27,7 @@ jobs:
       - run: npm install
       - run: npm run test:unit
   lint:
+    name: lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -34,3 +37,11 @@ jobs:
           node-version: '20.x'
       - run: npm install
       - run: npm run lint
+  prettier-check:
+    name: check prettier
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: npm install
+      - name: check prettier formatting
+        run: npm run check

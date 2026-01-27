@@ -1,142 +1,144 @@
 <template>
-    <div class="card-container">
-        <div class="member-info-container">
-            <img :src="member?.image" :alt="member?.altImage">
-            <div>
-                <h3>{{ member?.name }}</h3>
-                <p class="position"><i>{{ member?.position }}</i></p>
-                <div class="tags">
-                    <div class="tag">
-                        <p>{{ member?.memberType }}</p>
-                    </div>
-                    <div v-if="member?.pronouns" class="tag">
-                        <p>{{ member?.pronouns }}</p>
-                    </div>
-                </div>
-            </div>
+  <div class="card-container">
+    <div class="member-info-container">
+      <img :src="member?.image" :alt="member?.altImage" />
+      <div>
+        <h3>{{ member?.name }}</h3>
+        <p class="position">
+          <i>{{ member?.position }}</i>
+        </p>
+        <div class="tags">
+          <div class="tag">
+            <p>{{ member?.memberType }}</p>
+          </div>
+          <div v-if="member?.pronouns" class="tag">
+            <p>{{ member?.pronouns }}</p>
+          </div>
         </div>
-        <div v-if="member?.description" class="member-descr-container">
-            <p>{{ member?.description }}</p>
-        </div>
+      </div>
     </div>
+    <div v-if="member?.description" class="member-descr-container">
+      <p>{{ member?.description }}</p>
+    </div>
+  </div>
 </template>
 
 <script setup>
-const props = defineProps({
-    member: { 
-        type: Object, 
-        required: true,
-        // default: () => ({ 
-        //     "image": "#",
-        //     "name": "Jane Doe",
-        //     "position": "Member",
-        //     "memberType": "Member Type",
-        //     "pronouns": "",
-        //     "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Inceptos lorem ullamcorper purus sodales sem lobortis. Interdum neque egestas dictum mattis auctor ut nunc cubilia."
-        // })
-    },
+defineProps({
+  member: {
+    type: Object,
+    required: true
+    // default: () => ({
+    //     "image": "#",
+    //     "name": "Jane Doe",
+    //     "position": "Member",
+    //     "memberType": "Member Type",
+    //     "pronouns": "",
+    //     "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Inceptos lorem ullamcorper purus sodales sem lobortis. Interdum neque egestas dictum mattis auctor ut nunc cubilia."
+    // })
+  }
 })
 </script>
 
 <style scoped>
 .tags {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .member-info-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 @media (max-width: 800px) {
-    .card-container {
-        display: flex;
-        flex-direction: column;
+  .card-container {
+    display: flex;
+    flex-direction: column;
 
-        height: fit-content;
-        padding: 3%;
-        border: 2px solid var(--color-border-darker_blue);
-        border-radius: 30px;
-        margin: 3%;
+    height: fit-content;
+    padding: 3%;
+    border: 2px solid var(--color-border-darker_blue);
+    border-radius: 30px;
+    margin: 3%;
 
-        box-shadow: 3px 4px var(--color-shadow-dark);
-        text-align: start;
-    }
+    box-shadow: 3px 4px var(--color-shadow-dark);
+    text-align: start;
+  }
 
-    .member-info-container {
-        padding: 2%;
-        column-gap: 10px;
-    }
+  .member-info-container {
+    padding: 2%;
+    column-gap: 10px;
+  }
 
-    .member-info-container img {
-        border-radius: 50%;
-        min-width: 90px;
-        min-height: 90px;
-        width: 90px;
-        height: 90px;
+  .member-info-container img {
+    border-radius: 50%;
+    min-width: 90px;
+    min-height: 90px;
+    width: 90px;
+    height: 90px;
 
-        object-fit: cover;
-    }
+    object-fit: cover;
+  }
 }
 
 @media (min-width: 801px) {
-    .card-container {
-        display: flex;
-        flex-direction: column;
+  .card-container {
+    display: flex;
+    flex-direction: column;
 
-        height: 100%;
-        padding: 2%;
-        border: 2px solid var(--color-border-darker_blue);
-        border-radius: 30px;
-        margin: 2%;
+    height: 100%;
+    padding: 2%;
+    border: 2px solid var(--color-border-darker_blue);
+    border-radius: 30px;
+    margin: 2%;
 
-        box-shadow: 5px 5px var(--color-shadow-dark);
-        text-align: start;
-    }
+    box-shadow: 5px 5px var(--color-shadow-dark);
+    text-align: start;
+  }
 
-    .member-info-container {
-        padding: 3%;
-        padding-bottom: 0;
-        column-gap: 15px;
-    }
+  .member-info-container {
+    padding: 3%;
+    padding-bottom: 0;
+    column-gap: 15px;
+  }
 
-    .member-info-container img {
-        border-radius: 50%;
-        width: 100px;
-        height: 100px;
-        max-width: 100px;
-        max-height: 100px;
+  .member-info-container img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
 
-        object-fit: cover;
-    }
+    object-fit: cover;
+  }
 }
 
 .position {
-    font-size: 11px;
-    color: var(--color-text-gray);
+  font-size: 11px;
+  color: var(--color-text-gray);
 }
 
 .tag {
-    background-color: var(--color-background-blue);
-    width: fit-content;
-    height: fit-content;
+  background-color: var(--color-background-blue);
+  width: fit-content;
+  height: fit-content;
 
-    border: 2px solid var(--color-background-blue);
-    border-radius: 30px;
+  border: 2px solid var(--color-background-blue);
+  border-radius: 30px;
 
-    margin: 2% 0%;
-    padding: 2% 4%;
+  margin: 2% 0%;
+  padding: 2% 4%;
 
-    font-size: 11px;
-    color: var(--color-text-light);
+  font-size: 11px;
+  color: var(--color-text-light);
 
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .member-descr-container {
-    font-size: 13px;
-    padding: 4%;
+  font-size: 13px;
+  padding: 4%;
 }
 </style>

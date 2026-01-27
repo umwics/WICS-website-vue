@@ -7,26 +7,33 @@
  * @returns true if propValue is valid, otherwise, prints a console warning and returns false
  */
 export function useValidator(propValue, propName, validPropValues) {
-    if (validPropValues.includes(propValue)) {
-        return true;
-    }
+  if (validPropValues.includes(propValue)) {
+    return true
+  }
 
-    const validValuesString = listValidValues(validPropValues);
-    console.warn("The value '" + propValue + "' is not valid for prop " + propName + ". Please use one of the following: " + validValuesString);
+  const validValuesString = listValidValues(validPropValues)
+  console.warn(
+    "The value '" +
+      propValue +
+      "' is not valid for prop " +
+      propName +
+      '. Please use one of the following: ' +
+      validValuesString
+  )
 
-    return false;
+  return false
 }
 
 function listValidValues(validPropValues) {
-    let validValuesString = "";
+  let validValuesString = ''
 
-    for (let i = 0; i < validPropValues.length; i++) {
-        validValuesString += validPropValues[i];
+  for (let i = 0; i < validPropValues.length; i++) {
+    validValuesString += validPropValues[i]
 
-        if (i !== validPropValues.length - 1) {
-            validValuesString += ", ";
-        }
+    if (i !== validPropValues.length - 1) {
+      validValuesString += ', '
     }
+  }
 
-    return validValuesString;
+  return validValuesString
 }

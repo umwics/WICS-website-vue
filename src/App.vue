@@ -9,7 +9,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
-import FooterComponent from './components/FooterComponent.vue';
+import FooterComponent from './components/FooterComponent.vue'
 </script>
 
 <style>
@@ -62,13 +62,13 @@ body {
 
 @media (max-width: 800px) {
   .title {
-      padding-bottom: 10%;
+    padding-bottom: 10%;
   }
 }
 
 @media (min-width: 801px) {
   .title {
-      padding-bottom: 4%;
+    padding-bottom: 4%;
   }
 }
 

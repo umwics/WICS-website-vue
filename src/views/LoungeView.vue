@@ -54,9 +54,10 @@
       <CardComponent title="DIRECTIONS TO THE LOUNGE" class="directions-card">
         <template #secondary-content>
           <p class="directions-text">
-            We are located at EITC-E2 Room 599, right by the stairs, through the computer science technical support door.
-            As you go through that door, we are the first ones on the right!
-            Our window is filled with posters of women in stem so you know you're in the right place!
+            We are located at EITC-E2 Room 599, right by the stairs, through the computer science
+            technical support door. As you go through that door, we are the first ones on the right!
+            Our window is filled with posters of women in stem so you know you're in the right
+            place!
           </p>
           <iframe
             src="https://www.instagram.com/reel/DAqujeIgDY_/embed"

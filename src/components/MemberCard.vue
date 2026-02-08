@@ -1,49 +1,67 @@
 <template>
   <div class="card-container">
     <div class="member-info-container">
-      <img :src="member?.image" :alt="member?.altImage" />
+      <img :src="image" :alt="altImage" />
       <div>
-        <h3>{{ member?.name }}</h3>
+        <h3>{{ name }}</h3>
         <p class="position">
-          <i>{{ member?.position }}</i>
+          <i>{{ position }}</i>
         </p>
         <div class="tags">
           <div class="tag">
-            <p>{{ member?.memberType }}</p>
+            <p>{{ memberType }}</p>
           </div>
-          <div v-if="member?.pronouns" class="tag">
-            <p>{{ member?.pronouns }}</p>
+          <div v-if="pronouns" class="tag">
+            <p>{{ pronouns }}</p>
           </div>
         </div>
       </div>
     </div>
-    <div v-if="member?.description" class="member-descr-container">
-      <p>{{ member?.description }}</p>
+    <div v-if="description" class="member-descr-container">
+      <p>{{ description }}</p>
     </div>
   </div>
 </template>
 
+<script>
+const defaultAltText =
+  'Gray placeholder icon indicating that no photo has been submitted for this person.'
+const defaultImage = 'src/assets/data/team/defaultMember.jpeg'
+</script>
+
 <script setup>
 defineProps({
-  member: {
-    image: {
-      type: Object
-    },
-    name: {
-      type: String
-    },
-    position: {
-      type: String
-    },
-    memberType: {
-      type: String
-    },
-    pronouns: {
-      type: String
-    },
-    description: {
-      type: String
+  altImage: {
+    type: String,
+    default: defaultAltText
+  },
+  image: {
+    type: String,
+    default: defaultImage,
+    validator(value, props) {
+      // ensure that either the default image is used with the default alt,
+      // or a custom image has custom alt
+      return value === defaultImage
+        ? props.altImage === defaultAltText
+        : props.altImage !== defaultAltText
     }
+  },
+  name: {
+    type: String,
+    required: true
+  },
+  position: {
+    type: String,
+    required: true
+  },
+  memberType: {
+    type: String
+  },
+  pronouns: {
+    type: String
+  },
+  description: {
+    type: String
   }
 })
 </script>

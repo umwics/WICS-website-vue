@@ -10,7 +10,15 @@
         <h2 class="team-type">Administrative Team</h2>
         <div class="sub-team-info">
           <div v-for="member in admin" :key="member?.position" class="member">
-            <MemberCard :member="member"></MemberCard>
+            <MemberCard
+              :altImage="member?.altImage"
+              :image="member?.image"
+              :name="member?.name"
+              :position="member?.position"
+              :memberType="member?.memberType"
+              :pronouns="member?.pronouns"
+              :description="member?.description"
+            ></MemberCard>
           </div>
         </div>
       </div>
@@ -19,7 +27,15 @@
         <h2 class="team-type">Events Team</h2>
         <div class="sub-team-info">
           <div v-for="member in events" :key="member?.position" class="member">
-            <MemberCard :member="member"></MemberCard>
+            <MemberCard
+              :altImage="member?.altImage"
+              :image="member?.image"
+              :name="member?.name"
+              :position="member?.position"
+              :memberType="member?.memberType"
+              :pronouns="member?.pronouns"
+              :description="member?.description"
+            ></MemberCard>
           </div>
         </div>
       </div>
@@ -28,7 +44,15 @@
         <h2 class="team-type">Outreach Team</h2>
         <div class="sub-team-info">
           <div v-for="member in outreach" :key="member?.position" class="member">
-            <MemberCard :member="member"></MemberCard>
+            <MemberCard
+              :altImage="member?.altImage"
+              :image="member?.image"
+              :name="member?.name"
+              :position="member?.position"
+              :memberType="member?.memberType"
+              :pronouns="member?.pronouns"
+              :description="member?.description"
+            ></MemberCard>
           </div>
         </div>
       </div>
@@ -37,7 +61,15 @@
         <h2 class="team-type">Social Media Team</h2>
         <div class="sub-team-info">
           <div v-for="member in socialMedia" :key="member?.position" class="member">
-            <MemberCard :member="member"></MemberCard>
+            <MemberCard
+              :altImage="member?.altImage"
+              :image="member?.image"
+              :name="member?.name"
+              :position="member?.position"
+              :memberType="member?.memberType"
+              :pronouns="member?.pronouns"
+              :description="member?.description"
+            ></MemberCard>
           </div>
         </div>
       </div>
@@ -46,7 +78,15 @@
         <h2 class="team-type">Website Committee</h2>
         <div class="sub-team-info">
           <div v-for="member in websiteCommittee" :key="member?.position" class="member">
-            <MemberCard :member="member"></MemberCard>
+            <MemberCard
+              :altImage="member?.altImage"
+              :image="member?.image"
+              :name="member?.name"
+              :position="member?.position"
+              :memberType="member?.memberType"
+              :pronouns="member?.pronouns"
+              :description="member?.description"
+            ></MemberCard>
           </div>
         </div>
       </div>

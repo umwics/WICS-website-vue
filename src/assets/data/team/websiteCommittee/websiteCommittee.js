@@ -49,30 +49,30 @@ export const websiteCommittee = [
     position: 'Website Committee Member',
     memberType: 'Contributor',
     description:
-      'Hi everyone! My name in Mandeep, but you can call me Mandy. I’m currently in my 1st year of university. I am passionate about web development and problem-solving, and I’m excited to contribute to the website committee. My hobbies include reading books and running.',
+      'Hi everyone! My name in Mandeep, but you can call me Mandy. I’m currently in my 1st year of university. I am passionate about web development and problem-solving, and I’m excited to contribute to the website committee. My hobbies include reading books and running.'
   },
   {
     name: 'Krisha Bhalala',
     position: 'Website Committee Member',
     memberType: 'Contributor',
     description:
-      "Hi, I'm Krisha, a third-year Computer Science student. I enjoy exploring city, finding cute cafes, and discovering cool new spots. As a WICS committee member, I'm super passionate about supporting women in tech and creating spaces where everyone feels welcome. I'm excited to push myself, try new things, and show that tech is for everyone – especially girls who want to make a difference!",
+      "Hi, I'm Krisha, a third-year Computer Science student. I enjoy exploring city, finding cute cafes, and discovering cool new spots. As a WICS committee member, I'm super passionate about supporting women in tech and creating spaces where everyone feels welcome. I'm excited to push myself, try new things, and show that tech is for everyone – especially girls who want to make a difference!"
   },
   {
     name: 'Jillian Manguba',
     position: 'Website Committee Member',
     memberType: 'Contributor',
-    pronouns: 'she/her',
+    pronouns: 'she/her'
   },
   {
     name: 'Warda Zulfiqar',
     position: 'Website Committee Member',
-    memberType: 'Contributor',
+    memberType: 'Contributor'
   },
   {
     name: 'Nataniella Ogogo',
     position: 'Website Committee Member',
     memberType: 'Contributor',
-    pronouns: 'she/her',
+    pronouns: 'she/her'
   }
 ]

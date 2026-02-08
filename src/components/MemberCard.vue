@@ -1,7 +1,7 @@
 <template>
   <div class="card-container">
     <div class="member-info-container">
-      <img :src="image" :alt="altImage" data-test="image"/>
+      <img :src="image" :alt="altImage" data-test="image" />
       <div>
         <h3>{{ name }}</h3>
         <p class="position">

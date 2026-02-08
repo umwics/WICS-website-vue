@@ -21,7 +21,7 @@ test('test card component', async () => {
   expect(wrapper.find(sectionDivider).exists()).toBe(false)
 
   // add description
-   await wrapper.setProps({ ...wrapper.props(), description: 'Test Description' })
+  await wrapper.setProps({ ...wrapper.props(), description: 'Test Description' })
 
   // description should be present and divider should be inserted
   expect(wrapper.text()).toContain('Test Description')

@@ -5,10 +5,7 @@
       <component :is="svgIcon" data-test="svg"></component>
       <div class="description">
         <h4>{{ name }}</h4>
-        <a class="button"
-           v-if="link && username"
-           :href="link" target="_blank" data-test="button"
-        >
+        <a class="button" v-if="link && username" :href="link" target="_blank" data-test="button">
           {{ username }}
         </a>
       </div>
@@ -30,7 +27,7 @@ defineProps({
   },
   username: {
     type: String
-  },
+  }
 })
 </script>
 

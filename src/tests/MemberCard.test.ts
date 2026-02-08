@@ -15,7 +15,7 @@ test('test member card component', async () => {
       image: testImage,
       name: 'test name',
       position: 'test position',
-      memberType: 'test member type',
+      memberType: 'test member type'
     }
   })
 
@@ -29,7 +29,7 @@ test('test member card component', async () => {
   expect(descriptionGetter().exists()).toBe(false)
 
   // add optionals
-  await wrapper.setProps({...wrapper.props, pronouns: 'test pronouns' })
+  await wrapper.setProps({ ...wrapper.props, pronouns: 'test pronouns' })
 
   expect(pronounsGetter().text()).toContain('test pronouns')
 

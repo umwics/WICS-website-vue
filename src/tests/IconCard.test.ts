@@ -11,7 +11,7 @@ test('test icon card component', async () => {
   const buttonGetter = () => wrapper.find('[data-test="button"]')
   const wrapper = mount(IconCard, {
     props: {
-      name: 'test name',
+      name: 'test name'
     }
   })
 

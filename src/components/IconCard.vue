@@ -2,10 +2,15 @@
   <div class="card-container">
     <div class="card-top"></div>
     <div class="social">
-      <component :is="socialMedia?.svgIcon"></component>
+      <component :is="socialMedia?.svgIcon" data-test="svg"></component>
       <div class="description">
         <h4>{{ socialMedia?.name }}</h4>
-        <a class="button" :href="socialMedia?.link" target="_blank">{{ socialMedia?.username }}</a>
+        <a class="button"
+           v-if="socialMedia?.link && socialMedia?.username"
+           :href="socialMedia?.link" target="_blank" data-test="button"
+        >
+          {{ socialMedia?.username }}
+        </a>
       </div>
     </div>
   </div>

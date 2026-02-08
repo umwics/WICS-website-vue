@@ -11,9 +11,7 @@ test('test icon card component', async () => {
   const buttonGetter = () => wrapper.find('[data-test="button"]')
   const wrapper = mount(IconCard, {
     props: {
-      socialMedia: {
-        name: 'test name',
-      }
+      name: 'test name',
     }
   })
 
@@ -23,12 +21,12 @@ test('test icon card component', async () => {
   // svg is not present
   expect(svgGetter().exists()).toBe(false)
 
-  await wrapper.setProps({ socialMedia: { link: 'https://test.link/', username: 'test username' }})
+  await wrapper.setProps({ link: 'https://test.link/', username: 'test username' })
 
   expect(buttonGetter().exists()).toBe(true)
   expect(buttonGetter().text()).toContain('test username')
 
-  await wrapper.setProps({ socialMedia: { svgIcon: testSVG } })
+  await wrapper.setProps({ svgIcon: testSVG })
 
   expect(svgGetter().exists()).toBe(true)
 })

@@ -7,11 +7,11 @@ test('test card component', async () => {
   // test that component exists
   expect(CardComponent).toBeTruthy()
 
-  let props = {
-    title: 'Test Title'
-  }
-
-  const wrapper = mount(CardComponent, { props: props })
+  const wrapper = mount(CardComponent, {
+    props: {
+      title: 'Test Title'
+    }
+  })
 
   // title element should be rendered
   expect(wrapper.text()).toContain('Test Title')
@@ -20,9 +20,8 @@ test('test card component', async () => {
   const sectionDivider = '[data-test="divider"]'
   expect(wrapper.find(sectionDivider).exists()).toBe(false)
 
-  // @ts-ignore add description
-  props = { ...props, description: 'Test Description' }
-  await wrapper.setProps(props)
+  // add description
+   await wrapper.setProps({ ...wrapper.props(), description: 'Test Description' })
 
   // description should be present and divider should be inserted
   expect(wrapper.text()).toContain('Test Description')
@@ -32,10 +31,15 @@ test('test card component', async () => {
   const image = '[data-test="image"]'
   expect(wrapper.find(image).exists()).toBe(false)
 
-  // @ts-ignore add image
-  props = { ...props, image: 'src/assets/tests/test_image.png' }
-  await wrapper.setProps(props)
+  // add image
+  await wrapper.setProps({ ...wrapper.props(), image: 'src/assets/tests/test_image.png' })
 
   // image element should now exist
   expect(wrapper.find(image).exists()).toBe(true)
+  expect(wrapper.find('[class="image-position--top"]').exists()).toBe(true)
+  expect(wrapper.find('[class="image-position--side"]').exists()).toBe(false)
+
+  await wrapper.setProps({ ...wrapper.props(), imagePosition: 'side' })
+
+  expect(wrapper.find('[class="image-position--side"]').exists()).toBe(true)
 })

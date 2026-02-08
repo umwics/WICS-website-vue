@@ -2,7 +2,7 @@
   <div class="card-container">
     <div class="card-top"></div>
     <div class="main">
-      <div :class="imagePositionClasses">
+      <div :class="'image-position--' + props.imagePosition">
         <div v-if="image" class="card-img" data-test="image">
           <img :src="image" />
         </div>
@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import { useValidator } from '@/composables/useValidator.js'
+import { useValidator } from '@/composables/useValidator.ts'
 
 const name = 'CardComponent'
 
@@ -43,8 +43,6 @@ const props = defineProps({
 // validates imagePosition prop values as it has specific valid options
 const validValues = ['top', 'side']
 useValidator(props.imagePosition, name, validValues)
-
-const imagePositionClasses = 'image-position--' + props.imagePosition
 </script>
 
 <style scoped>

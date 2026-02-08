@@ -1,9 +1,9 @@
 import { test, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 
-import CardComponent from "../components/CardComponent.vue";
+import CardComponent from '../components/CardComponent.vue'
 
-test("test card component", async () => {
+test('test card component', async () => {
   // test that component exists
   expect(CardComponent).toBeTruthy()
 
@@ -38,4 +38,4 @@ test("test card component", async () => {
 
   // image element should now exist
   expect(wrapper.find(image).exists()).toBe(true)
-});
+})

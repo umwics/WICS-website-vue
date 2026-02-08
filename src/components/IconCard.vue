@@ -19,14 +19,18 @@
 <script setup>
 defineProps({
   socialMedia: {
-    type: Object,
-    required: true
-    // default: () => ({
-    //     "svgIcon": '#',
-    //     "name": "Social Media",
-    //     "link": "#",
-    //     "username": "umwics"
-    // })
+    svgIcon: {
+      type: Object
+    },
+    name: {
+      type: String
+    },
+    link: {
+      type: String
+    },
+    username: {
+      type: String
+    },
   }
 })
 </script>

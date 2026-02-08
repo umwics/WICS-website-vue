@@ -17,7 +17,7 @@ test("test card component", async () => {
   expect(wrapper.text()).toContain('Test Title')
 
   // divider should not be rendered unless there is a title and description
-  const sectionDivider = '[class="section-divider"]'
+  const sectionDivider = '[data-test="divider"]'
   expect(wrapper.find(sectionDivider).exists()).toBe(false)
 
   // @ts-ignore add description
@@ -29,7 +29,7 @@ test("test card component", async () => {
   expect(wrapper.find(sectionDivider).exists()).toBe(true)
 
   // image element should not exist
-  const image = '[class="card-img"]'
+  const image = '[data-test="image"]'
   expect(wrapper.find(image).exists()).toBe(false)
 
   // @ts-ignore add image

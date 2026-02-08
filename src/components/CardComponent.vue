@@ -3,13 +3,13 @@
     <div class="card-top"></div>
     <div class="main">
       <div :class="imagePositionClasses">
-        <div v-if="image" class="card-img">
+        <div v-if="image" class="card-img" data-test="image">
           <img :src="image" />
         </div>
         <div class="card-text">
           <h2 class="title">{{ title }}</h2>
           <p class="body">{{ description }}</p>
-          <div v-if="title && description" class="section-divider"></div>
+          <div v-if="title && description" class="section-divider" data-test="divider"></div>
           <slot name="secondary-content"></slot>
         </div>
       </div>

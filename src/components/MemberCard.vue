@@ -1,7 +1,7 @@
 <template>
   <div class="card-container">
     <div class="member-info-container">
-      <img :src="image" :alt="altImage" />
+      <img :src="image" :alt="altImage" data-test="image"/>
       <div>
         <h3>{{ name }}</h3>
         <p class="position">
@@ -11,13 +11,13 @@
           <div class="tag">
             <p>{{ memberType }}</p>
           </div>
-          <div v-if="pronouns" class="tag">
+          <div v-if="pronouns" class="tag" data-test="pronouns">
             <p>{{ pronouns }}</p>
           </div>
         </div>
       </div>
     </div>
-    <div v-if="description" class="member-descr-container">
+    <div v-if="description" class="member-descr-container" data-test="description">
       <p>{{ description }}</p>
     </div>
   </div>

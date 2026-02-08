@@ -7,29 +7,33 @@ import MemberCard from '@/components/MemberCard.vue'
 test('test member card component', async () => {
   expect(MemberCard).toBeTruthy()
 
-  const svgGetter = () => wrapper.find('[data-test="svg"]')
-  const buttonGetter = () => wrapper.find('[data-test="button"]')
+  const pronounsGetter = () => wrapper.find('[data-test="pronouns"]')
+  const descriptionGetter = () => wrapper.find('[data-test="description"]')
   const wrapper = mount(MemberCard, {
     props: {
-      member: {
-        image: testImage,
-        name: 'test name'
-      }
+      altImage: 'test alt text',
+      image: testImage,
+      name: 'test name',
+      position: 'test position',
+      memberType: 'test member type',
     }
   })
 
+  expect(wrapper.text()).toContain('test member type')
+  expect(wrapper.text()).toContain('test position')
   expect(wrapper.text()).toContain('test name')
-  // button should not be rendered unless it has a link and title
-  expect(buttonGetter().exists()).toBe(false)
-  // svg is not present
-  expect(svgGetter().exists()).toBe(false)
 
-  await wrapper.setProps({ socialMedia: { link: 'https://test.link/', username: 'test username' } })
+  expect(wrapper.find('[data-test="image"]').attributes('alt')).toBe('test alt text')
+  // pronouns + description should not be rendered
+  expect(pronounsGetter().exists()).toBe(false)
+  expect(descriptionGetter().exists()).toBe(false)
 
-  expect(buttonGetter().exists()).toBe(true)
-  expect(buttonGetter().text()).toContain('test username')
+  // add optionals
+  await wrapper.setProps({...wrapper.props, pronouns: 'test pronouns' })
 
-  //await wrapper.setProps({ socialMedia: { svgIcon: testSVG } })
+  expect(pronounsGetter().text()).toContain('test pronouns')
 
-  expect(svgGetter().exists()).toBe(true)
+  await wrapper.setProps({ ...wrapper.props, description: 'test description' })
+
+  expect(descriptionGetter().text()).toContain('test description')
 })

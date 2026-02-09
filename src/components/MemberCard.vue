@@ -24,9 +24,9 @@
 </template>
 
 <script>
+import defaultImage from '@/assets/data/team/defaultMember.jpeg'
 const defaultAltText =
   'Gray placeholder icon indicating that no photo has been submitted for this person.'
-const defaultImage = 'src/assets/data/team/defaultMember.jpeg'
 </script>
 
 <script setup>

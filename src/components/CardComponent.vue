@@ -43,7 +43,7 @@ const props = defineProps({
     default: '',
     validator(value, props) {
       // require alt text if an image is defined, otherwise there should be no alt text
-      return props.image !== ('' || undefined) ? value !== '' : value === ''
+      return (props.image !== '' && props.image !== undefined) ? value !== '' : value === ''
     }
   }
 })

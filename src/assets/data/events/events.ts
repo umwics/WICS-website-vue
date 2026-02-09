@@ -5,7 +5,8 @@ import communityMeetups from './images/community-meetups.webp'
 export const events = [
   {
     image: mentorMingle,
-    imageAlt: 'A large group of mentor mingle attendees and mentors posing for a photo in a brightly lit room.',
+    imageAlt:
+      'A large group of mentor mingle attendees and mentors posing for a photo in a brightly lit room.',
     title: 'Mentor Mingle',
     description:
       'Mentor Mingle is an event WICS hosts to help students and industry partners to socialize in a more laid back setting! It gives students a chance to learn about different companies and ask them about what they do. This year, it was hosted by Varian, A Siemens Healthineers Company! This event is for women and gender minorities only.'

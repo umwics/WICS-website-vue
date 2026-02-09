@@ -12,7 +12,7 @@ export default typescriptEslint.config(
       ...typescriptEslint.configs.recommended,
       ...eslintPluginVue.configs['flat/recommended']
     ],
-    files: ['**/*.{ts,vue}'],
+    files: ['**/*.{ts,vue}'], // by default, eslint covers .cjs, .js, and .mjs
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',

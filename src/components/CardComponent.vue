@@ -4,7 +4,7 @@
     <div class="main">
       <div :class="'image-position--' + imagePosition">
         <div v-if="image" class="card-img" data-test="image">
-          <img :src="image" />
+          <img :src="image" :alt="imageAlt" />
         </div>
         <div class="card-text">
           <h2 class="title">{{ title }}</h2>
@@ -40,6 +40,14 @@ defineProps({
   },
   description: {
     type: String
+  },
+  imageAlt: {
+    type: String,
+    default: '',
+    validator(value, props) {
+      // require alt text if an image is defined, otherwise there should be no alt text
+      return props.image !== '' && props.image !== undefined ? value !== '' : value === ''
+    }
   }
 })
 </script>

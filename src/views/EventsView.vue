@@ -11,6 +11,7 @@
           class="event-card"
           :image="event.image"
           :imagePosition="event.imagePosition"
+          :imageAlt="event.imageAlt"
           :description="event.description"
           :title="event.title"
         />

@@ -9,6 +9,7 @@
         <CardComponent
           :imagePosition="item.imagePosition"
           :image="item.image"
+          :imageAlt="item.imageAlt"
           :title="item.title"
           :description="item.description"
         />
@@ -29,7 +30,7 @@
 </template>
 
 <script setup>
-import { outreach } from '../assets/data/outreach/outreach.js'
+import { outreach } from '../assets/data/outreach/outreach.ts'
 import CardComponent from '../components/CardComponent.vue'
 </script>
 

@@ -4,6 +4,8 @@ import gameDevWorkshop from './images/game-dev-workshop.png'
 export const outreach = [
   {
     image: fortRichmondCollegiate,
+    imageAlt:
+      'The logo of Fort Richmond Collegiate, a stylized black and yellow bird of prey, with a subtitle reading "Inspire. Create. Achieve.".',
     imagePosition: 'side',
     title: 'School Presentation',
     description:
@@ -11,6 +13,8 @@ export const outreach = [
   },
   {
     image: gameDevWorkshop,
+    imageAlt:
+      'A group of young students seated in a computer lab, working on brightly lit screens.',
     imagePosition: 'side',
     title: 'Game Development Workshops',
     description:

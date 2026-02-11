@@ -14,7 +14,10 @@ defineOptions({
 })
 
 const props = defineProps({
-  images: { type: Object }
+  images: {
+    type: Object,
+    required: true
+  }
 })
 
 /**

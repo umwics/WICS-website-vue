@@ -31,12 +31,17 @@ const props = defineProps({
     type: String,
     default: 'top'
   },
-  image: { type: String },
+  image: {
+    type: String,
+    default: ''
+  },
   title: {
-    type: String
+    type: String,
+    required: true
   },
   description: {
-    type: String
+    type: String,
+    default: ''
   },
   imageAlt: {
     type: String,

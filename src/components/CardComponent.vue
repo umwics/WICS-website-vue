@@ -33,13 +33,16 @@ defineProps({
     }
   },
   image: {
-    type: String
+    type: String,
+    default: ''
   },
   title: {
-    type: String
+    type: String,
+    required: true
   },
   description: {
-    type: String
+    type: String,
+    default: ''
   },
   imageAlt: {
     type: String,

@@ -6,6 +6,7 @@ export const outreach = [
     image: fortRichmondCollegiate,
     imageAlt:
       'The logo of Fort Richmond Collegiate, a stylized black and yellow bird of prey, with a subtitle reading "Inspire. Create. Achieve.".',
+    imagePosition: 'side',
     title: 'School Presentation',
     description:
       'Some of our WICS members visited the Fort Richmond Collegiate and gave a presentation about WICS!\n\nAfterwards, we had a panel where the students were able to ask questions they wanted, including questions about WICS community events, Computer Science, university tips, and many more!'
@@ -14,6 +15,7 @@ export const outreach = [
     image: gameDevWorkshop,
     imageAlt:
       'A group of young students seated in a computer lab, working on brightly lit screens.',
+    imagePosition: 'side',
     title: 'Game Development Workshops',
     description:
       'Last fall, WICS Outreach hosted game development workshops for grade 5-8 students! We taught them how to create their own 2D-platform game using Gamefroot.\n\nThis is all in partnership with CanU, a Winnipeg-based charitable organization.'

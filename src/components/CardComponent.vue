@@ -3,8 +3,8 @@
     <div class="card-top"></div>
     <div class="main">
       <div :class="'image-position--' + imagePosition">
-        <div v-if="image" class="card-img" data-test="image">
-          <img :src="image" :alt="imageAlt" />
+        <div v-if="image" class="card-img" >
+          <img :src="image" :alt="imageAlt" data-test="image" />
         </div>
         <div class="card-text">
           <h2 class="title">{{ title }}</h2>

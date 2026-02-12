@@ -30,7 +30,7 @@
 </template>
 
 <script setup>
-import { outreach } from '../assets/data/outreach/outreach.ts'
+import { outreach } from '../assets/data/outreach/outreach.js'
 import CardComponent from '../components/CardComponent.vue'
 </script>
 

@@ -20,7 +20,7 @@
 
 <script setup>
 import IconCard from '@/components/IconCard.vue'
-import { socialMedia } from '@/assets/data/contactUs/socialMedia.ts'
+import { socialMedia } from '@/assets/data/contactUs/socialMedia.js'
 </script>
 
 <style scoped>

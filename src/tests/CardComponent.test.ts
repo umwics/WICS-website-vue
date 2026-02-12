@@ -32,7 +32,11 @@ test('test card component', async () => {
   expect(wrapper.find(image).exists()).toBe(false)
 
   // add image
-  await wrapper.setProps({ ...wrapper.props(), image: 'src/assets/tests/test_image.png', imageAlt: 'test alt' })
+  await wrapper.setProps({
+    ...wrapper.props(),
+    image: 'src/assets/tests/test_image.png',
+    imageAlt: 'test alt'
+  })
 
   // image element should now exist
   expect(wrapper.find(image).exists()).toBe(true)

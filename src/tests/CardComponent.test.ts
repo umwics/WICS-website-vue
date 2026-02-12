@@ -36,6 +36,7 @@ test('test card component', async () => {
 
   // image element should now exist
   expect(wrapper.find(image).exists()).toBe(true)
+  expect(wrapper.find(image).attributes('src')).toBe('src/assets/tests/test_image.png') 
   expect(wrapper.find('[class="image-position--top"]').exists()).toBe(true)
   expect(wrapper.find('[class="image-position--side"]').exists()).toBe(false)
 

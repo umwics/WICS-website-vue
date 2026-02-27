@@ -7,12 +7,7 @@
 
     <div class="socials">
       <div v-for="social in socialMedia" :key="social?.name">
-        <IconCard
-          :svgIcon="social?.svgIcon"
-          :name="social?.name"
-          :link="social?.link"
-          :username="social?.username"
-        ></IconCard>
+        <IconCard v-bind="social"></IconCard>
       </div>
     </div>
   </div>

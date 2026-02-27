@@ -5,89 +5,11 @@
       <p>These are the members of UMWICS during the 2024-2025 school year.</p>
     </div>
 
-    <div>
-      <div class="sub-team-container">
-        <h2 class="team-type">Administrative Team</h2>
-        <div class="sub-team-info">
-          <div v-for="member in admin" :key="member?.position" class="member">
-            <MemberCard
-              :altImage="member?.altImage"
-              :image="member?.image"
-              :name="member?.name"
-              :position="member?.position"
-              :memberType="member?.memberType"
-              :pronouns="member?.pronouns"
-              :description="member?.description"
-            ></MemberCard>
-          </div>
-        </div>
-      </div>
-
-      <div class="sub-team-container">
-        <h2 class="team-type">Events Team</h2>
-        <div class="sub-team-info">
-          <div v-for="member in events" :key="member?.position" class="member">
-            <MemberCard
-              :altImage="member?.altImage"
-              :image="member?.image"
-              :name="member?.name"
-              :position="member?.position"
-              :memberType="member?.memberType"
-              :pronouns="member?.pronouns"
-              :description="member?.description"
-            ></MemberCard>
-          </div>
-        </div>
-      </div>
-
-      <div class="sub-team-container">
-        <h2 class="team-type">Outreach Team</h2>
-        <div class="sub-team-info">
-          <div v-for="member in outreach" :key="member?.position" class="member">
-            <MemberCard
-              :altImage="member?.altImage"
-              :image="member?.image"
-              :name="member?.name"
-              :position="member?.position"
-              :memberType="member?.memberType"
-              :pronouns="member?.pronouns"
-              :description="member?.description"
-            ></MemberCard>
-          </div>
-        </div>
-      </div>
-
-      <div class="sub-team-container">
-        <h2 class="team-type">Social Media Team</h2>
-        <div class="sub-team-info">
-          <div v-for="member in socialMedia" :key="member?.position" class="member">
-            <MemberCard
-              :altImage="member?.altImage"
-              :image="member?.image"
-              :name="member?.name"
-              :position="member?.position"
-              :memberType="member?.memberType"
-              :pronouns="member?.pronouns"
-              :description="member?.description"
-            ></MemberCard>
-          </div>
-        </div>
-      </div>
-
-      <div class="sub-team-container">
-        <h2 class="team-type">Website Committee</h2>
-        <div class="sub-team-info">
-          <div v-for="member in websiteCommittee" :key="member?.position" class="member">
-            <MemberCard
-              :altImage="member?.altImage"
-              :image="member?.image"
-              :name="member?.name"
-              :position="member?.position"
-              :memberType="member?.memberType"
-              :pronouns="member?.pronouns"
-              :description="member?.description"
-            ></MemberCard>
-          </div>
+    <div v-for="team in teams" :key="team.name" class="sub-team-container">
+      <h2 class="team-type">{{ team.name }}</h2>
+      <div class="sub-team-info">
+        <div v-for="member in team.members" :key="member.name" class="member">
+          <MemberCard v-bind="member" />
         </div>
       </div>
     </div>
@@ -101,6 +23,29 @@ import { events } from '@/assets/data/team/events/events.js'
 import { outreach } from '@/assets/data/team/outreach/outreach.js'
 import { socialMedia } from '@/assets/data/team/socialMedia/socialMedia.js'
 import { websiteCommittee } from '@/assets/data/team/websiteCommittee/websiteCommittee.js'
+
+const teams = [
+  {
+    name: 'Administrative Team',
+    members: admin
+  },
+  {
+    name: 'Events Team',
+    members: events
+  },
+  {
+    name: 'Outreach Team',
+    members: outreach
+  },
+  {
+    name: 'Social Media Team',
+    members: socialMedia
+  },
+  {
+    name: 'Website Committee',
+    members: websiteCommittee
+  }
+]
 </script>
 
 <style scoped>

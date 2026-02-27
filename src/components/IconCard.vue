@@ -5,7 +5,7 @@
       <component :is="svgIcon" data-test="svg"></component>
       <div class="description">
         <h4>{{ name }}</h4>
-        <a class="button" v-if="link && username" :href="link" target="_blank" data-test="button">
+        <a v-if="link && username" class="button" :href="link" target="_blank" data-test="button">
           {{ username }}
         </a>
       </div>
@@ -16,17 +16,20 @@
 <script setup>
 defineProps({
   svgIcon: {
-    type: Object
+    type: Object,
+    default: undefined
   },
   name: {
     type: String,
     required: true
   },
   link: {
-    type: String
+    type: String,
+    default: ''
   },
   username: {
-    type: String
+    type: String,
+    default: ''
   }
 })
 </script>

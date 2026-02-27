@@ -10,8 +10,8 @@
         <CardComponent
           class="event-card"
           :image="event.image"
-          :imagePosition="event.imagePosition"
-          :imageAlt="event.imageAlt"
+          :image-position="event.imagePosition"
+          :image-alt="event.imageAlt"
           :description="event.description"
           :title="event.title"
         />

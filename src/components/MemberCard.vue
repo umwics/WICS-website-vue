@@ -55,13 +55,16 @@ defineProps({
     required: true
   },
   memberType: {
-    type: String
+    type: String,
+    required: true
   },
   pronouns: {
-    type: String
+    type: String,
+    default: ''
   },
   description: {
-    type: String
+    type: String,
+    default: ''
   }
 })
 </script>

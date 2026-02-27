@@ -1,41 +1,70 @@
 <template>
   <div class="card-container">
     <div class="member-info-container">
-      <img :src="member?.image" :alt="member?.altImage" />
+      <img :src="image" :alt="altImage" data-test="image" />
       <div>
-        <h3>{{ member?.name }}</h3>
+        <h3>{{ name }}</h3>
         <p class="position">
-          <i>{{ member?.position }}</i>
+          <i>{{ position }}</i>
         </p>
         <div class="tags">
           <div class="tag">
-            <p>{{ member?.memberType }}</p>
+            <p>{{ memberType }}</p>
           </div>
-          <div v-if="member?.pronouns" class="tag">
-            <p>{{ member?.pronouns }}</p>
+          <div v-if="pronouns" class="tag" data-test="pronouns">
+            <p>{{ pronouns }}</p>
           </div>
         </div>
       </div>
     </div>
-    <div v-if="member?.description" class="member-descr-container">
-      <p>{{ member?.description }}</p>
+    <div v-if="description" class="member-descr-container" data-test="description">
+      <p>{{ description }}</p>
     </div>
   </div>
 </template>
 
+<script>
+import defaultImage from '@/assets/data/team/defaultMember.jpeg'
+const defaultAltText =
+  'Gray placeholder icon indicating that no photo has been submitted for this person.'
+</script>
+
 <script setup>
 defineProps({
-  member: {
-    type: Object,
+  altImage: {
+    type: String,
+    default: defaultAltText
+  },
+  image: {
+    type: String,
+    default: defaultImage,
+    validator(value, props) {
+      // ensure that either the default image is used with the default alt,
+      // or a custom image has custom alt
+      return value === defaultImage
+        ? props.altImage === defaultAltText
+        : props.altImage !== defaultAltText
+    }
+  },
+  name: {
+    type: String,
     required: true
-    // default: () => ({
-    //     "image": "#",
-    //     "name": "Jane Doe",
-    //     "position": "Member",
-    //     "memberType": "Member Type",
-    //     "pronouns": "",
-    //     "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Inceptos lorem ullamcorper purus sodales sem lobortis. Interdum neque egestas dictum mattis auctor ut nunc cubilia."
-    // })
+  },
+  position: {
+    type: String,
+    required: true
+  },
+  memberType: {
+    type: String,
+    required: true
+  },
+  pronouns: {
+    type: String,
+    default: ''
+  },
+  description: {
+    type: String,
+    default: ''
   }
 })
 </script>

@@ -10,7 +10,8 @@
         <CardComponent
           class="event-card"
           :image="event.image"
-          :imageAlt="event.imageAlt"
+          :image-position="event.imagePosition"
+          :image-alt="event.imageAlt"
           :description="event.description"
           :title="event.title"
         />
@@ -20,7 +21,7 @@
 </template>
 
 <script setup>
-import { events } from '../assets/data/events/events.ts'
+import { events } from '../assets/data/events/events.js'
 import CardComponent from '../components/CardComponent.vue'
 </script>
 

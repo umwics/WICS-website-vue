@@ -2,14 +2,14 @@
   <div class="card-container">
     <div class="card-top"></div>
     <div class="main">
-      <div :class="imagePositionClasses">
+      <div :class="'image-position--' + imagePosition">
         <div v-if="image" class="card-img">
-          <img :src="image" :alt="imageAlt" />
+          <img :src="image" :alt="imageAlt" data-test="image" />
         </div>
         <div class="card-text">
           <h2 class="title">{{ title }}</h2>
           <p class="body">{{ description }}</p>
-          <div v-if="title && description" class="section-divider"></div>
+          <div v-if="title && description" class="section-divider" data-test="divider"></div>
           <slot name="secondary-content"></slot>
         </div>
       </div>
@@ -18,18 +18,19 @@
 </template>
 
 <script setup>
-import { useValidator } from '@/composables/useValidator.js'
-
 const name = 'CardComponent'
 
 defineOptions({
   name: name
 })
 
-const props = defineProps({
+defineProps({
   imagePosition: {
     type: String,
-    default: 'top'
+    default: 'top',
+    validator(value) {
+      return ['top', 'side'].includes(value)
+    }
   },
   image: {
     type: String,
@@ -52,12 +53,6 @@ const props = defineProps({
     }
   }
 })
-
-// validates imagePosition prop values as it has specific valid options
-const validValues = ['top', 'side']
-useValidator(props.imagePosition, name, validValues)
-
-const imagePositionClasses = 'image-position--' + props.imagePosition
 </script>
 
 <style scoped>

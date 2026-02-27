@@ -9,7 +9,6 @@ export const admin = [
     name: 'Ayesha Qadir',
     position: 'President',
     memberType: 'Executive',
-    pronouns: '',
     description:
       "I'm Ayesha, the current President of UMWICS! I'm in my third year of a Joint CS-Math degree, and a Co-op student. Outside of school, I have a lot of creative hobbies; I enjoy a lot of fibre arts, and do some drawing and scrapbooking as well. My hope this year for WICS is to widen our reach and expand our community as much as possible. WICS has helped me grow so much, and I hope to give other people that opportunity as well. If you happen to see me in the hall, feel free to say hi!",
     altImage: 'Image of Ayesha Qadir, WICS president'

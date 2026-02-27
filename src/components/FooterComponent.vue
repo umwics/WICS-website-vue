@@ -1,7 +1,9 @@
 <template>
   <footer>
     <div class="footer-content">
-      <p>© 2025 University of Manitoba Women in Computer Science. All Rights Reserved.</p>
+      <p>
+        © {{ currentYear }} University of Manitoba Women in Computer Science. All Rights Reserved.
+      </p>
       <p>
         This work is licensed under a Creative Commons Attribute-NonCommercial-ShareAlike 4.0
         International License.
@@ -10,7 +12,9 @@
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+const currentYear = new Date().getFullYear()
+</script>
 
 <style scoped>
 * {

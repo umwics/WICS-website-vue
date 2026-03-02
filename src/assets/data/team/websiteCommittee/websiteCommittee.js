@@ -2,11 +2,6 @@ import websiteCoordinatorImage from './images/Ara.jpg'
 import websiteMember1 from './images/KC.webp'
 import websiteMember2 from './images/Yashsavi.jpg'
 import websiteMember3 from './images/corrina_img.webp'
-import websiteMember4 from '../defaultMember.jpeg'
-import websiteMember5 from '../defaultMember.jpeg'
-import websiteMember6 from '../defaultMember.jpeg'
-import websiteMember7 from '../defaultMember.jpeg'
-import websiteMember8 from '../defaultMember.jpeg'
 
 export const websiteCommittee = [
   {
@@ -50,50 +45,34 @@ export const websiteCommittee = [
     altImage: 'Image of Corrina Colvinson, WICS Website Committee Member'
   },
   {
-    image: websiteMember4,
     name: 'Mandeep Kaur',
     position: 'Website Committee Member',
     memberType: 'Contributor',
-    pronouns: '',
     description:
-      'Hi everyone! My name in Mandeep, but you can call me Mandy. I’m currently in my 1st year of university. I am passionate about web development and problem-solving, and I’m excited to contribute to the website committee. My hobbies include reading books and running.',
-    altImage: 'Image of Mandeep Kaur, WICS Website Committee Member'
+      'Hi everyone! My name in Mandeep, but you can call me Mandy. I’m currently in my 1st year of university. I am passionate about web development and problem-solving, and I’m excited to contribute to the website committee. My hobbies include reading books and running.'
   },
   {
-    image: websiteMember5,
     name: 'Krisha Bhalala',
     position: 'Website Committee Member',
     memberType: 'Contributor',
-    pronouns: '',
     description:
-      "Hi, I'm Krisha, a third-year Computer Science student. I enjoy exploring city, finding cute cafes, and discovering cool new spots. As a WICS committee member, I'm super passionate about supporting women in tech and creating spaces where everyone feels welcome. I'm excited to push myself, try new things, and show that tech is for everyone – especially girls who want to make a difference!",
-    altImage: 'Image of Krisha Bhalala, WICS Website Committee Member'
+      "Hi, I'm Krisha, a third-year Computer Science student. I enjoy exploring city, finding cute cafes, and discovering cool new spots. As a WICS committee member, I'm super passionate about supporting women in tech and creating spaces where everyone feels welcome. I'm excited to push myself, try new things, and show that tech is for everyone – especially girls who want to make a difference!"
   },
   {
-    image: websiteMember6,
     name: 'Jillian Manguba',
     position: 'Website Committee Member',
     memberType: 'Contributor',
-    pronouns: 'she/her',
-    description: '',
-    altImage: 'Image of Jillian Manguba, WICS Website Committee Member'
+    pronouns: 'she/her'
   },
   {
-    image: websiteMember7,
     name: 'Warda Zulfiqar',
     position: 'Website Committee Member',
-    memberType: 'Contributor',
-    pronouns: '',
-    description: '',
-    altImage: 'Image of Marda, WICS Website Committee Member'
+    memberType: 'Contributor'
   },
   {
-    image: websiteMember8,
     name: 'Nataniella Ogogo',
     position: 'Website Committee Member',
     memberType: 'Contributor',
-    pronouns: 'she/her',
-    description: '',
-    altImage: 'Image of Nataniella Ogogo, WICS Website Committee Member'
+    pronouns: 'she/her'
   }
 ]

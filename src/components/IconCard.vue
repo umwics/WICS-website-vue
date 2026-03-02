@@ -2,10 +2,12 @@
   <div class="card-container">
     <div class="card-top"></div>
     <div class="social">
-      <component :is="socialMedia?.svgIcon"></component>
+      <component :is="svgIcon" data-test="svg"></component>
       <div class="description">
-        <h4>{{ socialMedia?.name }}</h4>
-        <a class="button" :href="socialMedia?.link" target="_blank">{{ socialMedia?.username }}</a>
+        <h4>{{ name }}</h4>
+        <a v-if="link && username" class="button" :href="link" target="_blank" data-test="button">
+          {{ username }}
+        </a>
       </div>
     </div>
   </div>
@@ -13,15 +15,21 @@
 
 <script setup>
 defineProps({
-  socialMedia: {
+  svgIcon: {
     type: Object,
+    default: undefined
+  },
+  name: {
+    type: String,
     required: true
-    // default: () => ({
-    //     "svgIcon": '#',
-    //     "name": "Social Media",
-    //     "link": "#",
-    //     "username": "umwics"
-    // })
+  },
+  link: {
+    type: String,
+    default: ''
+  },
+  username: {
+    type: String,
+    default: ''
   }
 })
 </script>

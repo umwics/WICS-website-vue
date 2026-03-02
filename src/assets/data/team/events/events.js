@@ -4,13 +4,12 @@ import asstEventsCoordinatorImage from './images/Rimsha.webp'
 export const events = [
   {
     image: eventsCoordinatorImage,
-    name: 'Luisa Velandia',
+    name: 'Rimsha Irfan Velandia',
     position: 'Events Coordinator',
     memberType: 'Executive',
     pronouns: 'she/her',
-    description:
-      "Hi my name is Luisa and I'm the Events Coordinator for the 2024/2025 year! I'm a third year Computer Science - Statistics Joint student, and I'm about to start my first co-op term in the fall! This year I'm working on planning more social events, to help make it a little easier to meet other people in comp sci. Being a part of the WICS team has allowed me to meet so many cool people, and I hope I can help others do the same <3 Besides WICS, I also love spending my time climbing, playing bass and guitar, or playing video games with friends :)",
-    altImage: 'Image of Luisa Velandia, WICS Events Coordinator'
+    description: "Hi everyone >_<, my name is Rimsha and I am this years Events Coordinator! I am currently in my second year doing a cs honours degree with a math minor. You might know me from WICS last year when I was the assistant events coordinator or you might know me as your TA. Some fun facts about me is that I am a graphic designer, I love to bake and I like to collect figurines :) I am so excited to take over the role of Events Coordinator this year and I hope to bring exciting technical and social events to our community and offer a safe space for women and gender minorities that are having a hard time finding likeminded people or a space to showcase their interests!",
+    altImage: 'Image of Rimsha Irfan, WICS Events Coordinator'
   },
   {
     image: asstEventsCoordinatorImage,

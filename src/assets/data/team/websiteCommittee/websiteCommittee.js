@@ -1,4 +1,4 @@
-import websiteCoordinatorImage from './images/Ara.jpg'
+import websiteCoordinatorImage from './images/Halah.JPG'
 import defaultMember from '../defaultMember.jpeg'
 
 

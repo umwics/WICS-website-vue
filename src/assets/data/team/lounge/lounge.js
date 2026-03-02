@@ -1,4 +1,4 @@
-import loungeCoordinatorImage from './images/Luisa.jpeg'
+import loungeCoordinatorImage from './images/Alicia.jpg'
 
 export const events = [
   {

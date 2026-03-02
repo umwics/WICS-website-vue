@@ -1,5 +1,4 @@
-import eventsCoordinatorImage from './images/Luisa.jpeg'
-import asstEventsCoordinatorImage from './images/Rimsha.webp'
+import eventsCoordinatorImage from './images/Rimsha.jpg'
 
 export const events = [
   {

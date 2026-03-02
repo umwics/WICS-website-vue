@@ -1,5 +1,4 @@
-import outreachCoordinatorImage from './images/Dalia.jpeg'
-import asstOutreachCoordinatorImage from './images/jasmine.webp'
+import outreachCoordinatorImage from './images/Dalia.jpg'
 
 export const outreach = [
   {

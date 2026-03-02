@@ -11,18 +11,18 @@ export const admin = [
     memberType: 'Executive',
     pronouns: '',
     description:
-      "I'm Ayesha, the current President of UMWICS! I'm in my third year of a Joint CS-Math degree, and a Co-op student. Outside of school, I have a lot of creative hobbies; I enjoy a lot of fibre arts, and do some drawing and scrapbooking as well. My hope this year for WICS is to widen our reach and expand our community as much as possible. WICS has helped me grow so much, and I hope to give other people that opportunity as well. If you happen to see me in the hall, feel free to say hi!",
+      "Hello! My name is Ayesha, and I'm in my 3rd (kind of 4th?) year of a CS-Math Joint Honours degree. I'm excited to be coming back for my 3rd year as a WICS executive, and my 2nd year as President! WICS has been a huge part of my university life, and I've learned a lot about myself and my place in this field through my involvement. I've been lucky enough to see so much growth in this club in the few years I've been here, and I hope to see even more during my term this year <3",
     altImage: 'Image of Ayesha Qadir, WICS president'
   },
   {
     image: vicePresidentImage,
-    name: 'Dhvani Thakkar',
+    name: 'Luisa Velandia',
     position: 'Vice President',
     memberType: 'Executive',
     pronouns: 'she/her',
-    description:
-      'Hi hi! I’m Dhvani Thakkar, and I’m the vice president for this year!! I’m in my final year of Computer Science with a minor in Statistics, and WICS has been a big part of my life for the past three years. I absolutely love the sense of community it brings, and I can’t wait for you all to experience the exciting events, outreach initiatives, and mentorship programs we have planned this year. When I’m not studying or working, you’ll probably find me lost in a fiction book, watching a good rom-com, or trying out new restaurants and cafés around the city. Oh, and a fun fact about me—I can fluently speak six languages! Looking forward to an amazing year together!',
-    altImage: 'Image of Dhvani Thakkar, WICS Vice-president'
+    description: "My name is Luisa, and I am the 2025-2026 UMWICS Vice President! I am currently a third year computer science honours student, going into my second co-op term this fall. I am super excited for our next year with this UMWICS team, especially for the fall when we can start up our Mentorship Program. Outside of UMWICS, I’m usually playing video games or rock climbing! I love meeting new people, so don’t hesitate to say hi if you see me around campus :)"
+,
+    altImage: 'Image of Luisa Velandia, WICS Vice-president'
   },
   {
     image: secretaryImage,
@@ -30,9 +30,8 @@ export const admin = [
     position: 'Secretary',
     memberType: 'Executive',
     pronouns: 'she/her',
-    description:
-      "Hey everyone! My name's Lisa and I am the Secretary for 2024-2025. I am super excited to be working with a very talented and supportive team this year as well as being in such a welcoming community! A little fun fact about myself is that I love music, whether it comes from listening to Spotify or playing songs on the piano. If you ever have any song recommendations, be sure to send them to me! I listen to pretty much anything :)",
-    altImage: 'Image of Lisa Zhu, WICS Secretary'
+    description:"Hi everyone! My name is Keira, and my pronouns are she/her. I am going into my 4th year in the Computer Science and Mathematics Joint Honours program, and I am returning as UMWICS treasurer for 2025/26! I am super excited to continue supporting this team and helping our community grow.",
+    altImage: 'Image of Keira Pasveer, WICS Secretary'
   },
   {
     image: treasurerImage,

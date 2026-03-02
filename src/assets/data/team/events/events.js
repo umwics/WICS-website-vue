@@ -4,7 +4,7 @@ import asstEventsCoordinatorImage from './images/Rimsha.webp'
 export const events = [
   {
     image: eventsCoordinatorImage,
-    name: 'Rimsha Irfan Velandia',
+    name: 'Rimsha Irfan',
     position: 'Events Coordinator',
     memberType: 'Executive',
     pronouns: 'she/her',

@@ -49,7 +49,7 @@ export const websiteCommittee = [
     memberType: 'Contributor',
     pronouns: 'she/her',
     description:
-      'git config --global http.postBuffer 524288000Hey! I’m Xinyue, you can just call me Lucy! I’m a third-year Computer Science honors student. I enjoy working with code behind the scenes, also I’m expecting to meet more friends in wics! Outside of class I am particularly interested in video games and playing guitar.',
+      'Hey! I’m Xinyue, you can just call me Lucy! I’m a third-year Computer Science honors student. I enjoy working with code behind the scenes, also I’m expecting to meet more friends in wics! Outside of class I am particularly interested in video games and playing guitar.',
     altImage: ''
   }
 ]

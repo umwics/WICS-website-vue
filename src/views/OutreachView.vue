@@ -7,9 +7,9 @@
     <div class="outreach-container">
       <div v-for="item in outreach" :key="item?.position" class="outreach-card">
         <CardComponent
-          :imagePosition="position"
+          :image-position="item.imagePosition"
           :image="item.image"
-          :imageAlt="item.imageAlt"
+          :image-alt="item.imageAlt"
           :title="item.title"
           :description="item.description"
         />
@@ -30,9 +30,8 @@
 </template>
 
 <script setup>
-import { outreach } from '../assets/data/outreach/outreach.ts'
+import { outreach } from '../assets/data/outreach/outreach.js'
 import CardComponent from '../components/CardComponent.vue'
-const position = 'side'
 </script>
 
 <style scoped>

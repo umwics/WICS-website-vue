@@ -9,7 +9,6 @@ export const admin = [
     name: 'Ayesha Qadir',
     position: 'President',
     memberType: 'Executive',
-    pronouns: '',
     description:
       "Hello! My name is Ayesha, and I'm in my 3rd (kind of 4th?) year of a CS-Math Joint Honours degree. I'm excited to be coming back for my 3rd year as a WICS executive, and my 2nd year as President! WICS has been a huge part of my university life, and I've learned a lot about myself and my place in this field through my involvement. I've been lucky enough to see so much growth in this club in the few years I've been here, and I hope to see even more during my term this year <3",
     altImage: 'Image of Ayesha Qadir, WICS president'

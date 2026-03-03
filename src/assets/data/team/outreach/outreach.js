@@ -19,6 +19,5 @@ export const outreach = [
     memberType: 'Appointed',
     pronouns: 'she/her',
     description: '',
-    altImage: 'Image of Jasmine Shapan, WICS Assistant Outreach Coordinator'
   }
 ]

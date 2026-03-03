@@ -1,4 +1,4 @@
-import outreachCoordinatorImage from './images/Dalia.jpg'
+import outreachCoordinatorImage from './images/Dalia.JPG'
 import asstOutreachCoordinatorImage from '../defaultMember.jpeg'
 
 export const outreach = [

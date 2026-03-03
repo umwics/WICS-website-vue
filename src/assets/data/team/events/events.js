@@ -1,5 +1,6 @@
 import eventsCoordinatorImage from './images/Rimsha.jpg'
-import asstEventsCoordinatorImage from '.../team/defaultMember.jpeg'
+import asstEventsCoordinatorImage from './images/Edrielle.png'
+
 export const events = [
   {
     image: eventsCoordinatorImage,
@@ -16,8 +17,7 @@ export const events = [
     position: 'Assistant Events Coordinator',
     memberType: 'Appointed',
     pronouns: 'she/her',
-    description: ""
-    ,
+    description: "Hii, I’m Edrielle!! I’m a Computer Science student at the University of Manitoba who loves building things and seeing my ideas come to life. WICS was actually the first club I ever heard about, so I’m really excited to be part of something bigger while supporting and empowering women and gender minorities in tech. Outside of school, I run a small business, find new places to eat, and start projects that I may or may not finish :)",
         altImage: 'Image of Rimsha Irfan, WICS Assistant Events Coordinator'
   }
 ]

@@ -41,7 +41,8 @@ const teams = [
   {
     name: 'Social Media Team',
     members: socialMedia
-  },{
+  },
+  {
     name: 'Lounge Team',
     members: lounge
   },

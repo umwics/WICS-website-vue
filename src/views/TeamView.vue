@@ -2,7 +2,7 @@
   <div class="view-container">
     <div class="title">
       <h1 class="title-head">UMWICS Team</h1>
-      <p>These are the members of UMWICS during the 2024-2025 school year.</p>
+      <p>These are the members of UMWICS during the 2025-2026 school year.</p>
     </div>
 
     <div v-for="team in teams" :key="team.name" class="sub-team-container">
@@ -23,6 +23,7 @@ import { events } from '@/assets/data/team/events/events.js'
 import { outreach } from '@/assets/data/team/outreach/outreach.js'
 import { socialMedia } from '@/assets/data/team/socialMedia/socialMedia.js'
 import { websiteCommittee } from '@/assets/data/team/websiteCommittee/websiteCommittee.js'
+import { lounge } from '@/assets/data/team/lounge/lounge.js'
 
 const teams = [
   {
@@ -40,6 +41,10 @@ const teams = [
   {
     name: 'Social Media Team',
     members: socialMedia
+  },
+  {
+    name: 'Lounge Team',
+    members: lounge
   },
   {
     name: 'Website Committee',

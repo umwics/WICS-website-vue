@@ -1,25 +1,25 @@
-import eventsCoordinatorImage from './images/Luisa.jpeg'
-import asstEventsCoordinatorImage from './images/Rimsha.webp'
+import eventsCoordinatorImage from './images/Rimsha.jpeg'
+import asstEventsCoordinatorImage from './images/Edrielle.jpeg'
 
 export const events = [
   {
     image: eventsCoordinatorImage,
-    name: 'Luisa Velandia',
+    name: 'Rimsha Irfan',
     position: 'Events Coordinator',
     memberType: 'Executive',
     pronouns: 'she/her',
     description:
-      "Hi my name is Luisa and I'm the Events Coordinator for the 2024/2025 year! I'm a third year Computer Science - Statistics Joint student, and I'm about to start my first co-op term in the fall! This year I'm working on planning more social events, to help make it a little easier to meet other people in comp sci. Being a part of the WICS team has allowed me to meet so many cool people, and I hope I can help others do the same <3 Besides WICS, I also love spending my time climbing, playing bass and guitar, or playing video games with friends :)",
-    altImage: 'Image of Luisa Velandia, WICS Events Coordinator'
+      'Hi everyone >_<, my name is Rimsha and I am this years Events Coordinator! I am currently in my second year doing a cs honours degree with a math minor. You might know me from WICS last year when I was the assistant events coordinator or you might know me as your TA. Some fun facts about me is that I am a graphic designer, I love to bake and I like to collect figurines :) I am so excited to take over the role of Events Coordinator this year and I hope to bring exciting technical and social events to our community and offer a safe space for women and gender minorities that are having a hard time finding likeminded people or a space to showcase their interests!',
+    altImage: 'Image of Rimsha Irfan, WICS Events Coordinator'
   },
   {
     image: asstEventsCoordinatorImage,
-    name: 'Rimsha Irfan',
+    name: 'Edrielle',
     position: 'Assistant Events Coordinator',
     memberType: 'Appointed',
     pronouns: 'she/her',
     description:
-      'Hi! My name is Rimsha, I am the Assistant Events Coordinator for this year! I am currently in my second year of Computer Science Major with a Minor in math. I am very grateful to be part of the WICS team this year and work along with the others in my team to bring creative and fun events to you guys. I can’t wait for you guys to attend and experience our upcoming events and opportunities. Other than being part of WICS some other things I enjoy are weightlifting, graphic design and baking',
+      'Hii, I’m Edrielle!! I’m a Computer Science student at the University of Manitoba who loves building things and seeing my ideas come to life. WICS was actually the first club I ever heard about, so I’m really excited to be part of something bigger while supporting and empowering women and gender minorities in tech. Outside of school, I run a small business, find new places to eat, and start projects that I may or may not finish :)',
     altImage: 'Image of Rimsha Irfan, WICS Assistant Events Coordinator'
   }
 ]

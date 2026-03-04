@@ -1,6 +1,6 @@
 import presidentImage from './images/Ayesha.jpeg'
-import vicePresidentImage from './images/Dhvani.jpeg'
-import secretaryImage from './images/Lisa.jpeg'
+import vicePresidentImage from './images/Luisa.jpeg'
+import secretaryImage from './images/KC.jpeg'
 import treasurerImage from './images/Keira.jpeg'
 
 export const admin = [
@@ -10,28 +10,28 @@ export const admin = [
     position: 'President',
     memberType: 'Executive',
     description:
-      "I'm Ayesha, the current President of UMWICS! I'm in my third year of a Joint CS-Math degree, and a Co-op student. Outside of school, I have a lot of creative hobbies; I enjoy a lot of fibre arts, and do some drawing and scrapbooking as well. My hope this year for WICS is to widen our reach and expand our community as much as possible. WICS has helped me grow so much, and I hope to give other people that opportunity as well. If you happen to see me in the hall, feel free to say hi!",
+      "Hello! My name is Ayesha, and I'm in my 3rd (kind of 4th?) year of a CS-Math Joint Honours degree. I'm excited to be coming back for my 3rd year as a WICS executive, and my 2nd year as President! WICS has been a huge part of my university life, and I've learned a lot about myself and my place in this field through my involvement. I've been lucky enough to see so much growth in this club in the few years I've been here, and I hope to see even more during my term this year <3",
     altImage: 'Image of Ayesha Qadir, WICS president'
   },
   {
     image: vicePresidentImage,
-    name: 'Dhvani Thakkar',
+    name: 'Luisa Velandia',
     position: 'Vice President',
     memberType: 'Executive',
     pronouns: 'she/her',
     description:
-      'Hi hi! I’m Dhvani Thakkar, and I’m the vice president for this year!! I’m in my final year of Computer Science with a minor in Statistics, and WICS has been a big part of my life for the past three years. I absolutely love the sense of community it brings, and I can’t wait for you all to experience the exciting events, outreach initiatives, and mentorship programs we have planned this year. When I’m not studying or working, you’ll probably find me lost in a fiction book, watching a good rom-com, or trying out new restaurants and cafés around the city. Oh, and a fun fact about me—I can fluently speak six languages! Looking forward to an amazing year together!',
-    altImage: 'Image of Dhvani Thakkar, WICS Vice-president'
+      'My name is Luisa, and I am the 2025-2026 UMWICS Vice President! I am currently a third year computer science honours student, going into my second co-op term this fall. I am super excited for our next year with this UMWICS team, especially for the fall when we can start up our Mentorship Program. Outside of UMWICS, I’m usually playing video games or rock climbing! I love meeting new people, so don’t hesitate to say hi if you see me around campus :)',
+    altImage: 'Image of Luisa Velandia, WICS Vice-president'
   },
   {
     image: secretaryImage,
-    name: 'Lisa Zhu',
+    name: 'KC del Moro',
     position: 'Secretary',
     memberType: 'Executive',
-    pronouns: 'she/her',
+    pronouns: '',
     description:
-      "Hey everyone! My name's Lisa and I am the Secretary for 2024-2025. I am super excited to be working with a very talented and supportive team this year as well as being in such a welcoming community! A little fun fact about myself is that I love music, whether it comes from listening to Spotify or playing songs on the piano. If you ever have any song recommendations, be sure to send them to me! I listen to pretty much anything :)",
-    altImage: 'Image of Lisa Zhu, WICS Secretary'
+      "Hii everyone !! I'm KC and I'm this year's Secretary for WICS :] I just finished my 2nd year of CS and I'm heading into my 3rd year in the program which is super exciting! I'm currently doing an honours degree in hopes of pursuing a master's someday B).  I actually used to be pretty isolated and disconnected from club activities. The first time I actually wanted to be more involved, WICS was doing outreach volunteering, so I signed up for that. Through volunteering I was able to meet lots of great people, and so I also started attending events and got to talk with various past executives. I was also able to make friends who encouraged me to run for this role :-) As someone who used to be intimidated of getting involved, I realised how much finding a community—that makes you feel included—can totally change your university experience. I wanted to contribute to WICS' mission of inclusivity and curating a safe space for women and gender minorities, whilst pursuing my own hopes of helping people who are in the same boat as I used to be.",
+    altImage: 'Image of KC del Moro, WICS Secretary'
   },
   {
     image: treasurerImage,

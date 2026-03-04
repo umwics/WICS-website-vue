@@ -1,4 +1,4 @@
-import websiteCoordinatorImage from './images/Halah.jpg'
+import websiteCoordinatorImage from './images/Halah.jpeg'
 import defaultMember from '../defaultMember.jpeg'
 
 export const websiteCommittee = [

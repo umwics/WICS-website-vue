@@ -1,6 +1,6 @@
-import presidentImage from './images/Ayesha.JPG'
-import vicePresidentImage from './images/Luisa.JPG'
-import secretaryImage from './images/KC.JPG'
+import presidentImage from './images/Ayesha.jpeg'
+import vicePresidentImage from './images/Luisa.jpeg'
+import secretaryImage from './images/KC.jpeg'
 import treasurerImage from './images/Keira.jpeg'
 
 export const admin = [

@@ -1,5 +1,4 @@
 import websiteCoordinatorImage from './images/Halah.jpeg'
-import defaultMember from '../defaultMember.jpeg'
 
 export const websiteCommittee = [
   {
@@ -13,43 +12,35 @@ export const websiteCommittee = [
     altImage: 'Image of Halah Mhanni, WICS Website Committee Coordinator'
   },
   {
-    image: defaultMember,
     name: 'Jack',
     position: 'Website Committee Member',
     memberType: 'Contributor',
     pronouns: 'she/her',
     description:
       "hi, i'm jack! i'm starting out in my first year of computer science, and i'm so excited to be able to contribute to empowering women and gender minorities through WICS. i was raised in the java virtual machine, and first got into CS through making minecraft mods. outside of school, i enjoy reading, running, and writing!",
-    altImage: ''
   },
   {
-    image: defaultMember,
     name: 'Mercy',
     position: 'Website Committee Member',
     memberType: 'Contributor',
     pronouns: 'she/her',
     description:
       'Hey everyone! My name is Mercy, and I’m a second-year Computer Science student. I’m excited to be part of the WICS website committee because I’m interested in learning more web development skills and eager to help support gender minorities in CS. In my spare time, I enjoy crocheting, reading, and watching true crime shows.',
-    altImage: ''
   },
   {
-    image: defaultMember,
     name: 'Simi',
     position: 'Website Committee Member',
     memberType: 'Contributor',
     pronouns: 'she/her',
     description:
       'Hiii!! My name is Simi, and I’m in my third year as a Comp Science student. I joined WICS website committee to learn more about web development and I’m eager to contribute as much as I can, where I can. In my spare time, I enjoy sleeping and watching cop/investigative shows.',
-    altImage: ''
   },
   {
-    image: defaultMember,
     name: 'Lucy',
     position: 'Website Committee Member',
     memberType: 'Contributor',
     pronouns: 'she/her',
     description:
       'Hey! I’m Xinyue, you can just call me Lucy! I’m a third-year Computer Science honors student. I enjoy working with code behind the scenes, also I’m expecting to meet more friends in wics! Outside of class I am particularly interested in video games and playing guitar.',
-    altImage: ''
   }
 ]

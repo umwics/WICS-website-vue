@@ -1,6 +1,6 @@
 import loungeCoordinatorImage from './images/Alicia.jpeg'
 
-export const events = [
+export const lounge = [
   {
     image: loungeCoordinatorImage,
     name: 'Alicia Kee',

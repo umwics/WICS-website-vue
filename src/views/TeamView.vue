@@ -23,6 +23,7 @@ import { events } from '@/assets/data/team/events/events.js'
 import { outreach } from '@/assets/data/team/outreach/outreach.js'
 import { socialMedia } from '@/assets/data/team/socialMedia/socialMedia.js'
 import { websiteCommittee } from '@/assets/data/team/websiteCommittee/websiteCommittee.js'
+import { lounge } from '@/assets/data/team/lounge/lounge.js'
 
 const teams = [
   {
@@ -40,6 +41,9 @@ const teams = [
   {
     name: 'Social Media Team',
     members: socialMedia
+  },{
+    name: 'Lounge Team',
+    members: lounge
   },
   {
     name: 'Website Committee',

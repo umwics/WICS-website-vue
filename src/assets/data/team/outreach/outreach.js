@@ -18,8 +18,8 @@ export const outreach = [
     position: 'Assistant Outreach Coordinator',
     memberType: 'Appointed',
     pronouns: 'she/her',
-    description: 'Hello! My name is Corrina and I’m a second year student in the computer science honours program. I’m passionate about outreach and helping children and youth see the fun in computer science and develop creative thinking and problem solving skills! Outside of my school and work, I’m an avid reader and love meeting and chatting with new people! ',
+    description:
+      'Hello! My name is Corrina and I’m a second year student in the computer science honours program. I’m passionate about outreach and helping children and youth see the fun in computer science and develop creative thinking and problem solving skills! Outside of my school and work, I’m an avid reader and love meeting and chatting with new people! ',
     altImage: 'Image of Corrina, WICS Assistant Outreach Coordinator'
-
   }
 ]

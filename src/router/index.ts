@@ -5,6 +5,7 @@ import EventsView from '../views/EventsView.vue'
 import ContactUsView from '@/views/ContactUsView.vue'
 import OutreachView from '../views/OutreachView.vue'
 import LoungeView from '@/views/LoungeView.vue'
+import ResourcesView from '@/views/ResourcesView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +39,11 @@ const router = createRouter({
       path: '/outreach',
       name: 'outreach',
       component: OutreachView
+    },
+    {
+      path: '/resources',
+      name: 'resources',
+      component: ResourcesView
     }
   ]
 })

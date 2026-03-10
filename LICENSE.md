@@ -1,28 +1,30 @@
-# Website License 
+# Website License
+
 © 2025 University of Manitoba Women in Computer Science. All Rights Reserved. This work is licensed under a Creative Commons Attribute-NonCommercial-ShareAlike 4.0 International License. For more information, please visit the following link: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # SVG Assets License
+
 The SVG assets used in this website are licensed under the MIT License.
 
 MIT License
 
-- EmailSVG, InstagramSVG: 
+- EmailSVG, InstagramSVG:
   - Copyright (c) Kenan Gundogan (https://github.com/kenangundogan/fontisto)
   - Modifications by UMWICS Website Committee include:
     - Adjusted colors to match UMWICS' brand.
     - Resized dimensions to fit website's design and to make it responsive.
-- GitHubSVG, LinkedInSVG: 
+- GitHubSVG, LinkedInSVG:
   - Copyright (c) GitLab (https://gitlab.com/gitlab-org/gitlab-svgs?ref=iconduck.com)
   - Modifications by UMWICS Website Committee include:
     - Adjusted colors to match UMWICS' brand.
     - Resized dimensions to fit website's design and to make it responsive.
-- Menu Hamburger in NavBar.vue: 
+- Menu Hamburger in NavBar.vue:
   - Copyright (c) jaynewey (https://github.com/jaynewey/charm-icons)
   - Modifications by UMWICS Website Committee include:
     - Adjusted colors to match UMWICS' brand.
     - Resized dimensions to fit website's design and to make it responsive.
     - Moved some stroke style out of the svg and into the style part of the code.
-- X in NavBar.vue: 
+- X in NavBar.vue:
   - Copyright (c) hicon (https://hicon.me/)
   - Modifications by UMWICS Website Committee include:
     - Adjusted colors to match UMWICS' brand.

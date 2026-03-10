@@ -39,7 +39,6 @@
       <RouterLink to="/lounge">Lounge</RouterLink>
       <RouterLink to="/contact-us">Contact Us</RouterLink>
       <RouterLink to="/resources">Resources</RouterLink>
-
     </div>
   </nav>
 </template>

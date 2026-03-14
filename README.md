@@ -124,4 +124,19 @@ There are 3 member types:
 ### Home, Events, Outreach, Lounge, Contact Us
 When you want to modify or add new information on home, events, outreach, lounge, and/or contact us, go to their corresponding folder in `src/assets/data/`. 
 
+## Deployment Workflow
+The site is automatically built and deployed using **GitHub Actions**.
+
+### Automated Deployment
+Whenever a Pull Request is merged into the `main` branch:
+- A GitHub Action runner triggers `npm run build`.
+- Instead of using a `gh-pages` branch, the compiled `/dist` folder is uploaded as a GitHub Pages artifact and deployed directly to production.
+- A status update (Success/Failure) is sent to the `#deployment-status` channel on our team **Discord**, including the commit message and the author.
+
+### Manual Triggers
+If you need to force a redeploy without pushing new code:
+1. Navigate to the **Actions** tab in this repository.
+2. Select the **Deploy to GitHub Pages** workflow from the left sidebar.
+3. Click the **Run workflow** dropdown and select the `main` branch.ions.
+
 

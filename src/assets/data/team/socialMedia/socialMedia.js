@@ -1,14 +1,23 @@
-import socialMediaCoordinatorImage from './images/Brooklynn.jpeg'
+import asstSocialMediaCoordinatorImage from './images/Jasmine.jpeg'
 
 export const socialMedia = [
   {
-    image: socialMediaCoordinatorImage,
-    name: 'Brooklyn Wood',
+    name: 'Mohreet Narula',
     position: 'Social Media Coordinator',
     memberType: 'Executive',
     pronouns: 'she/her',
     description:
-      'Hi, I’m Brooklynn! :) I am your Social Media Coordinator (for the third time!) 💫 I am a 4th year Computer Science Honours student, getting a minor in art history. Creativity is one of the reasons I love doing social media, but it’s also the reach it gives. Social media can be a powerful tool and I hope to create content that not only helps encourage people to attend our events, but to just inspire and show this supportive community I’m so glad to be a part of. ♥️ A little more about me: I’m also an artist 🎨 my favourite medium is acrylic gouache, but I’m also always looking for ways to combine art and CS into something of my own. I’m also a dancer 💃🏻 and love to travel. ✈️ When I started taking computer science in high school, by my grade 12 year, I was the only girl in class. It’s amazing to see the numbers of women rise in my classes over the years since :',
-    altImage: 'Image of Brooklyn Wood, WICS Social Media Coordinator'
+      'Hi!! My name is Mohreet and I am in my third year of Computer Science. This is my second year with wics and first year as the Social Media Coordinator. I am so excited for this role and being a part of wics again!! Outside of this role, I like dancing, photography and learning languages 📷💃✨',
+    altImage: 'Image of Mohreet Narula, WICS Social Media Coordinator'
+  },
+  {
+    image: asstSocialMediaCoordinatorImage,
+    name: 'Jasmine Shapan',
+    position: 'Assistant Social Media Coordinator',
+    memberType: 'Appointed',
+    pronouns: 'she/her',
+    description:
+      'Hi everyone! My name is Jasmine and i’m a 4th year CS major and also doing a minor in Statistics.  I’ve been with WICS since my first year and it truly is such a welcoming place as i’ve met so many cool and amazing people! My current favourite thing to do is play video games and I have been recently crazy about Horizon Zero Dawn. If you ever see me around campus please don’t hesitate to say hi!!!',
+    altImage: 'Image of Mohreet Narula, WICS Social Media Coordinator'
   }
 ]

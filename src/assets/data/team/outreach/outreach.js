@@ -1,25 +1,25 @@
-import outreachCoordinatorImage from './images/Dalia.jpeg'
-import asstOutreachCoordinatorImage from './images/Corrina.jpeg'
+import outreachCoordinatorImage from './images/Corrina.jpeg'
+import asstOutreachCoordinatorImage from './images/Sujana.jpg'
 
 export const outreach = [
   {
     image: outreachCoordinatorImage,
-    name: 'Dalia Bashaev',
+    name: 'Corrina Colvinson',
     position: 'Outreach Coordinator',
     memberType: 'Executive',
     pronouns: 'she/her',
     description:
-      "Hi! My name is Dalia Bashaev and I'm your Outreach Coordinator for this year. I'm a third year computer science student! I'm excited to be back on the team this year after being on the team last year. I'm looking forward to continuing the workshops from last year and expanding what WICs had accomplished by getting to talk about WICS with more high school students! A little bit about me: I like rock climbing, reading books, and baking!",
-    altImage: 'Image of Dalia Bashaev, WICS Outreach Coordinator'
+      "Hello!! My name is Corrina and I'm in my third year of studying computer science at U of M! I'm excited to be stepping into this role after serving as the Assistant Outreach Coordinator last year. I’m very passionate about helping youth see the fun in computer science and pushing them towards creative problem solving. Outside of school I love volunteering with young kids, reading, d&d, board games, hiking, and chatting with people! You'll often find me studying in the WICS lounge, feel free to say hi <3",
+    altImage: 'Image of Corrina Colvinson, WICS Outreach Coordinator'
   },
   {
     image: asstOutreachCoordinatorImage,
-    name: 'Corrina',
+    name: 'Sujana',
     position: 'Assistant Outreach Coordinator',
     memberType: 'Appointed',
     pronouns: 'she/her',
     description:
-      'Hello! My name is Corrina and I’m a second year student in the computer science honours program. I’m passionate about outreach and helping children and youth see the fun in computer science and develop creative thinking and problem solving skills! Outside of my school and work, I’m an avid reader and love meeting and chatting with new people! ',
-    altImage: 'Image of Corrina, WICS Assistant Outreach Coordinator'
+      'Hey! I’m Sujana, and I’m from Bangladesh. Other than camping out in front of a computer, I love chatting with my friends for hours on end. I’m also a very specific kind of movie buff, so specific that you probably shouldn’t ask me about a movie because there’s a good chance I haven’t seen it. Most importantly, you’ll almost always find me with my earphones on because I’m really into music. Please approach me on campus. I would love to know you all!',
+    altImage: 'Image of Sujana, WICS Assistant Outreach Coordinator'
   }
 ]

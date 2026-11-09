@@ -2,6 +2,7 @@ import instagramSVG from './svgTemplates/InstagramSVG.vue'
 import linkedinSVG from './svgTemplates/LinkedInSVG.vue'
 import githubSVG from './svgTemplates/GitHubSVG.vue'
 import emailSVG from './svgTemplates/EmailSVG.vue'
+import discordSVG from './svgTemplates/DiscordSVG.vue'
 
 export const socialMedia = [
   {
@@ -22,10 +23,17 @@ export const socialMedia = [
     link: 'mailto:uofmwics@gmail.com',
     username: 'uofmwics@gmail.com'
   },
+  
   {
     svgIcon: githubSVG,
     name: 'GitHub',
     link: 'https://github.com/umwics',
     username: '@umwics'
+  },
+  {
+    svgIcon: discordSVG,
+    name: 'Discord',
+    link: 'https://discord.umanitobacssa.ca/',
+    username: 'CS Discord'
   }
 ]

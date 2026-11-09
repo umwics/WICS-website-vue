@@ -35,6 +35,7 @@ defineProps({
 </script>
 
 <style scoped>
+
 .social {
   display: flex;
   padding: 10px;

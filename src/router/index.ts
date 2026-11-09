@@ -38,6 +38,11 @@ const router = createRouter({
       path: '/outreach',
       name: 'outreach',
       component: OutreachView
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'home',
+      component: HomeView
     }
   ]
 })

@@ -46,6 +46,18 @@ npm run test:unit
 npm run lint
 ```
 
+### Check Code Formatting with [Prettier](https://prettier.io/)
+
+```sh
+npm run check
+```
+
+### Format (Overwrite) Code with [Prettier](https://prettier.io/)
+
+```sh
+npm run format
+```
+
 ## Development Process
 1. Verify that you're in the main branch.
     ```sh

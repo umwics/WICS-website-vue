@@ -23,7 +23,7 @@ export const socialMedia = [
     link: 'mailto:uofmwics@gmail.com',
     username: 'uofmwics@gmail.com'
   },
-  
+
   {
     svgIcon: githubSVG,
     name: 'GitHub',

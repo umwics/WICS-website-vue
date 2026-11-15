@@ -1,14 +1,17 @@
-import loungeCoordinatorImage from './images/Alicia.jpeg'
+import loungeCoordinatorImage from './images/Oreluwa.jpeg'
 
 export const lounge = [
   {
     image: loungeCoordinatorImage,
-    name: 'Alicia Kee',
+    name: 'Oreoluwa Daramola ',
     position: 'Lounge Coordinator',
     memberType: 'Executive',
     pronouns: 'she/her',
     description:
-      'Hi everyone!! My name is Alicia and I’m the Lounge Coordinator for the 2025-2026 year! I will be going into my 3rd year of Computer Science here at UofM. Outside of school, I like to crochet, work out at the gym, and play on my switch :) I’m excited to take on this new role and continue to work on making the lounge a more welcoming and accessible space for women and gender minorities in CS in this upcoming year. The lounge is a great place to relax, socialize, and study, so I hope to see you guys there!! <33 ',
-    altImage: 'Image of Alicia Kee, WICS Events Coordinator'
+      "Hi, I'm Oreluwa, a Lounge Coordinator with WICS (she/her).\n" +
+      "I'm responsible for the day to day operations of the lounge and helping to maintain a welcoming, inclusive, and respectful space for everyone.\n" +
+      "I love creating a comfortable environment where students can relax, de-stress, and connect with others. With a background in community work, I'm passionate about making sure everyone feels supported and has a place where they belong.\n" +
+      'Outside of the lounge, I enjoy good music, meaningful conversations, and meeting new people. So feel free to stop by and say hi!',
+    altImage: 'Image of Oreoluwa Daramola , WICS Events Coordinator'
   }
 ]

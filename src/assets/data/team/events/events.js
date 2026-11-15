@@ -1,25 +1,25 @@
-import eventsCoordinatorImage from './images/Rimsha.jpeg'
-import asstEventsCoordinatorImage from './images/Edrielle.jpeg'
+import eventsCoordinatorImage from './images/Halah.jpeg'
+import asstEventsCoordinatorImage from './images/Himiksha.jpeg'
 
 export const events = [
   {
     image: eventsCoordinatorImage,
-    name: 'Rimsha Irfan',
+    name: 'Halah Mhanni',
     position: 'Events Coordinator',
     memberType: 'Executive',
     pronouns: 'she/her',
     description:
-      'Hi everyone >_<, my name is Rimsha and I am this years Events Coordinator! I am currently in my second year doing a cs honours degree with a math minor. You might know me from WICS last year when I was the assistant events coordinator or you might know me as your TA. Some fun facts about me is that I am a graphic designer, I love to bake and I like to collect figurines :) I am so excited to take over the role of Events Coordinator this year and I hope to bring exciting technical and social events to our community and offer a safe space for women and gender minorities that are having a hard time finding likeminded people or a space to showcase their interests!',
-    altImage: 'Image of Rimsha Irfan, WICS Events Coordinator'
+      'hello world! im Halah the wics events coordinator for the 2026/27 academic year! i’m in my final year as a cs honours student. outside of computers, im into climbing, muay thai and movies!!! the wics team has a lot of creative and exciting events planned for the year ahead, and i cannot wait to help bring them to life and make this a great year for wics!!! :3',
+    altImage: 'Image of Halah Mhanni, WICS Events Coordinator'
   },
   {
     image: asstEventsCoordinatorImage,
-    name: 'Edrielle',
+    name: 'Himiksha Gajjar',
     position: 'Assistant Events Coordinator',
     memberType: 'Appointed',
     pronouns: 'she/her',
     description:
-      'Hii, I’m Edrielle!! I’m a Computer Science student at the University of Manitoba who loves building things and seeing my ideas come to life. WICS was actually the first club I ever heard about, so I’m really excited to be part of something bigger while supporting and empowering women and gender minorities in tech. Outside of school, I run a small business, find new places to eat, and start projects that I may or may not finish :)',
-    altImage: 'Image of Rimsha Irfan, WICS Assistant Events Coordinator'
+      "Hii! I’m Himiksha, I am currently in my second year doing a computer science degree. I’m excited to help host events that empower and connect gender minorities in CS. I love learning and always find myself down a rabbit hole exploring random things, which fits right into CS—there's nothing like the unmatched satisfaction of completing a project. When I’m not studying, I’m usually reading, catching up on true crime shows, or learning a new dance!",
+    altImage: 'Image of Himiksha Gajjar, WICS Assistant Events Coordinator'
   }
 ]

@@ -1,46 +1,45 @@
-import websiteCoordinatorImage from './images/Halah.jpeg'
+import websiteCoordinatorImage from './images/KC.jpeg'
+import aliciaImage from './images/Alicia.jpeg'
+import chloeImage from './images/Chloe.jpeg'
 
 export const websiteCommittee = [
   {
     image: websiteCoordinatorImage,
-    name: 'Halah Mhanni',
+    name: 'KC del Moro',
     position: 'Website Committee Coordinator',
-    memberType: 'Appointed',
-    pronouns: 'she/her',
+    memberType: 'Executive',
+    pronouns: 'they/them',
     description:
-      'Hi, I’m Halah!! :D I’m the Website Coordinator for WICS this year. I’m in my fourth year of a CS Honours degree. I started out with WICS in my first year as a volunteer, and it’s been such an amazing experience being involved with WICS every year. I highly encourage everyone to get involved- it’s such a welcoming and supportive community, and I’ve met so many amazing people through WICS^.^ <3',
-    altImage: 'Image of Halah Mhanni, WICS Website Committee Coordinator'
+      'Hii! I’m KC and I’m the Website Committee Coordinator for WICS 2026-2027 c: I’m a fourth year computer science student, slowly heading into my fifth. Throughout university, I have always loved getting involved in student clubs. Seeing new faces and getting to know new people has always been fun. I initially started in WICS as a website committee member, so this feels full circle. I’m excited to share my ideas and contribute to the team this year! On my free time, I like to cook, do photography, play video games, and watch movies ^_^',
+    altImage: 'Image of KC del Moro, WICS Website Committee Coordinator'
   },
   {
-    name: 'Jack',
+    image: aliciaImage,
+    name: 'Alicia Kee',
     position: 'Website Committee Member',
     memberType: 'Contributor',
     pronouns: 'she/her',
     description:
-      "hi, i'm jack! i'm starting out in my first year of computer science, and i'm so excited to be able to contribute to empowering women and gender minorities through WICS. i was raised in the java virtual machine, and first got into CS through making minecraft mods. outside of school, i enjoy reading, running, and writing!"
+      'Hi everyone!! My name is Alicia and I’m in my 4th year of Computer Science here at UofM. Being involved with WICS since my second year, first as an appointed member of the team and then as an exec last year, has been such a fulfilling experience! I’m excited to continue contributing to the club by using and expanding my web development skills to help improve the WICS website wherever I can! <3',
+    altImage: 'Image of Alicia Kee, WICS Website Committee Member'
   },
   {
-    name: 'Mercy',
+    name: 'Mercy Odetuyi',
     position: 'Website Committee Member',
     memberType: 'Contributor',
     pronouns: 'she/her',
     description:
-      'Hey everyone! My name is Mercy, and I’m a second-year Computer Science student. I’m excited to be part of the WICS website committee because I’m interested in learning more web development skills and eager to help support gender minorities in CS. In my spare time, I enjoy crocheting, reading, and watching true crime shows.'
+      'Im Mercy and im a third year Computer Science honours student at the UofM. ' +
+      'I’ve been a part of WICS since my first year and this is my second year as a website committee member :) ' +
+      'In my spare time I love reading novels and watching true crime documentaries. '
   },
   {
-    name: 'Simi',
+    image: chloeImage,
+    name: 'Chloë Galenzoski',
     position: 'Website Committee Member',
     memberType: 'Contributor',
-    pronouns: 'she/her',
     description:
-      'Hiii!! My name is Simi, and I’m in my third year as a Comp Science student. I joined WICS website committee to learn more about web development and I’m eager to contribute as much as I can, where I can. In my spare time, I enjoy sleeping and watching cop/investigative shows.'
-  },
-  {
-    name: 'Lucy',
-    position: 'Website Committee Member',
-    memberType: 'Contributor',
-    pronouns: 'she/her',
-    description:
-      'Hey! I’m Xinyue, you can just call me Lucy! I’m a third-year Computer Science honors student. I enjoy working with code behind the scenes, also I’m expecting to meet more friends in wics! Outside of class I am particularly interested in video games and playing guitar.'
+      'I’m in my 4th year at U of Manitoba doing a Joint Honours in Comp Sci and Math. I’ve gone to a few past WICS events including the screaming cat paint night - it was iconic. I am looking forward to deepening my understanding of websites and working on a computer science project in a group! :P',
+    altImage: 'Image of Chloë Galenzoski, WICS Website Committee Member'
   }
 ]

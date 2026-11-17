@@ -36,7 +36,7 @@ import { socialMedia } from '@/assets/data/contactUs/socialMedia.js'
     column-gap: 10%;
     row-gap: 20%;
 
-    padding-bottom: 10%;
+    padding-bottom: 36%;
   }
 }
 </style>

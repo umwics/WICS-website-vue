@@ -20,7 +20,7 @@ export default typescriptEslint.config(
       parserOptions: {
         parser: typescriptEslint.parser
       }
-    },
+    }
   },
   eslintConfigPrettier
 )
